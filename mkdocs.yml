@@ -1,9 +1,9 @@
 site_name: RetroShare Docs
-site_url: https://retroshare.readthedocs.io
+site_url: https://retrosharedocs.readthedocs.io/
 site_description: RetroShare User Guide
 site_author: RetroShare Community
 
-repo_url: https://github.com/retroshare/documentation
+repo_url: https://github.com/RetroShare/docs
 
 site_favicon: favicon.ico
 
