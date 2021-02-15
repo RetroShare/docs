@@ -11,7 +11,7 @@ Install RetroShare on your Computer
 ##Create new Profile
 Start RetroShare to create your Node. 
 
-![create new node](../img/first-steps/create_new_profile.png "Create New Node")  
+![create new node](../img/first-steps/create_new_profile_2.png "Create New Node")  
 
 
 Enter the values:  
@@ -24,7 +24,7 @@ Enter the values:
    It's wise to choose a long password for your GPG-ID, as this also 
    encrypts your entire RetroShare directory.  
   
-Optional: (advanced options)
+Optional: (advanced options)  
  - Node Name ([Location](../user-guide/settings/#public-information))
    Each user can have several Locations were RetroShare is running on 
    different devices with the same [GPG-ID](../user-guide/settings/#public-information). 
@@ -35,7 +35,7 @@ Optional: (advanced options)
 
 Move your mouse to create randomness for the Key creation. 
 
-![Enter Profile Values](../img/first-steps/enter_profile_values.png "Enter Profile Values")  
+![Enter Profile Values](../img/first-steps/enter_profile_values_new.png "Enter Profile Values")  
 
 
 Sign your Certificate by entering your Password.  
