@@ -13,28 +13,24 @@ Start RetroShare to create your Node.
 
 ![create new node](../img/first-steps/create_new_profile.png "Create New Node")  
 
-Select following settings:  
- 
- - ![create new profile](../img/first-steps/profile.png "Create New Profile") Create new Profile  
- - ![Advanced Settings](../img/first-steps/advanced.png "Advanced Settings") Advanced Settings  
- - Choose your PGP Size (2048, 3072 or 4096 bits)  
-![choose PGP size](../img/first-steps/pgp_size.png "Select PGP Size")  
 
 Enter the values:  
 
  - Name  
    Name of your Account ([GPG-ID](../user-guide/settings/#public-information)) 
    Visible to your friends, and friends of friends. 
- - Nickname  
-   Name of your first Identity ([GXS-ID](../user-guide/interface/#pseudonymous-identities)) 
-   Used when you write in chat lobbies, forums and channel comments. Can be setup later if you need one. 
  - Password  
    This password protects your private PGP key. 
    It's wise to choose a long password for your GPG-ID, as this also 
    encrypts your entire RetroShare directory.  
+  
+Optional: (advanced options)
  - Node Name ([Location](../user-guide/settings/#public-information))
    Each user can have several Locations were RetroShare is running on 
    different devices with the same [GPG-ID](../user-guide/settings/#public-information). 
+ - Chat name  
+   Name of your first Identity ([GXS-ID](../user-guide/interface/#pseudonymous-identities)) 
+   Used when you write in chat lobbies, forums and channel comments. Can be setup later if you need one. 
 
 Move your mouse to create randomness for the Key creation. 
 
