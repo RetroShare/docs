@@ -28,6 +28,7 @@ Optional: (advanced options)
  - Node Name ([Location](../user-guide/settings/#public-information))
    Each user can have several Locations were RetroShare is running on 
    different devices with the same [GPG-ID](../user-guide/settings/#public-information). 
+
  - Chat name  
    Name of your first Identity ([GXS-ID](../user-guide/interface/#pseudonymous-identities)) 
    Used when you write in chat lobbies, forums and channel comments. Can be setup later if you need one. 
