@@ -31,17 +31,17 @@ Restart RetroShare, enabling the plugin when asked. You can change settings in O
 ## FileInfoTaskbar
 RetroShare plugin for displaying file download status on the Windows Taskbar
 
-Works with 0.6.6 and Qt5, from https://github.com/hunbernd/FileInfoTaskbar
+Works with 0.6.6 and Qt5, from <https://github.com/hunbernd/FileInfoTaskbar>
 
 ## RetroChess
 Play one game of chess against another player.
 
-Works with 0.6.6 and Qt5, from  https://github.com/RetroShare/RetroChess
+Works with 0.6.6 and Qt5, from <https://github.com/RetroShare/RetroChess>
 
 ## FriendMap
 Displays a globe, with location of friends on it.
 
-Works with 0.6.0 and Qt5, from https://github.com/RetroShare/FriendsMap
+Works with 0.6.0 and Qt5, from <https://github.com/RetroShare/FriendsMap>
 
 ## Lua4RS
 Allows Lua scripts to run under RetroShare for various administrative tasks.
@@ -51,4 +51,4 @@ Works with 0.6.0 and Qt5, from <https://github.com/sehraf/Lua4RS>.
 ## SyncFriends
 This plugin allows you to synchronize your friend list with whoever you want to. 
 
-Works with 0.6.0 and Qt5, from https://github.com/sehraf/SyncFriends
+Works with 0.6.0 and Qt5, from <https://github.com/sehraf/SyncFriends>
