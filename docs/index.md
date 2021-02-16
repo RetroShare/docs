@@ -25,8 +25,8 @@ Send encrypted messages to other members of the network. Retroshare can store en
 Share files with your friends or with the whole network. Use the search to find files. Retroshare uses swarming similar to BitTorrent, to accelerate the download. This makes it possible to share big files with 1GB or more. Your privacy is protected with anonymous tunnels. Only your direct friends might learn which files you download.
 - Forums  
 you can read and write forum posts offline. This is perfect while you're on the go. When you have an Internet connection, Retroshare will automatically sync forums with your friends. Decentralized forums are censorship resistant by design.
-- Posted  
-Share your favorite links. See which links others like. Vote and discuss links.
+- Boards  
+Share your favorite pictures and links. See which pictures or links others like. Vote and discuss.
 - Channels  
 Publish files in channels. Subscribe to channels and automatically download the latest files. Comment on files and spread them to your friends.
 - Protect your IP with Tor/I2P  
