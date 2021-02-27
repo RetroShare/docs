@@ -43,6 +43,11 @@ Displays a globe, with location of friends on it.
 
 Works with 0.6.0 and Qt5, from <https://github.com/RetroShare/FriendsMap>
 
+## PaintChat
+Draw a quick sketch to explain things.
+
+Works with 0.6.0 and Qt5, from <https://github.com/hunbernd/Retroshare-Paintchat-Plugin>
+
 ## Lua4RS
 Allows Lua scripts to run under RetroShare for various administrative tasks.
 
