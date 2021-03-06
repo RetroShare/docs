@@ -14,6 +14,7 @@ Emoty is intended to be a modern social network with emphasis on simplicity, fre
 It is based on top of RetroShare.
 
 Github Repository: <https://github.com/Emotyco/Emoty-Desktop>
+
 Website: <https://emotyco.github.io/>
 
 
