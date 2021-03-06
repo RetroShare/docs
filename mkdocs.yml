@@ -16,6 +16,7 @@ pages:
     - Interface: user-guide/interface.md
     - Plugins: user-guide/plugins.md
     - rscollection: user-guide/rscollection.md
+    - Projects: user-guide/projects.md
 - Tutorial: 
     - Second Location Creation: tutorial/location.md  
     - Tor Hidden Node: tutorial/tor-hidden-rs-node.md  
