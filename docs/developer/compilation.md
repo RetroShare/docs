@@ -204,70 +204,156 @@ to
 
 ### Qt Installation
 
-Install Qt via: [Qt Download](http://www.qt.io/download/)  
+Install Qt via: [Qt Download](http://www.qt.io/download/)
 
-Use default options.  
-Add to the PATH environment variable with this temporary solution.  
+Use default options. And add Qt Script support.
 
-       export PATH=/users/$USER/Qt/5.5/clang_64/bin:$PATH
+Add to the PATH environment variable by editing your *~/.profile* file.
 
-Depends on wich version of Qt you use.
+       export PATH="/users/$USER/Qt/5.14.1/clang_64/bin:$PATH"
 
-###MacPort Installation
+Depends on which version of Qt you use.
+
+## ***Choose if you use MacPort or HomeBrew***
+
+### MacPort Installation
 
 Install MacPort and XCode following this guide: [MacPort and XCode](http://guide.macports.org/#installing.xcode)
 
-Start XCode to get it updated and to able C compiler to create executables.  
+Start XCode to get it updated and to able C compiler to create executables.
 
-###Install libraries  
+#### Install libraries  
 
-       $sudo port -v selfupdate
-       $sudo port install openssl
-       $sudo port install miniupnpc
+       $ sudo port -v selfupdate
+       $ sudo port install openssl
+       $ sudo port install miniupnpc
+       $ sudo port install libmicrohttpd
        
 For VOIP Plugin: 
 
-       $sudo port install speex-devel
-       $sudo port install opencv
+       $ sudo port install speex-devel
+       $ sudo port install opencv
+       $ sudo port install ffmpeg
 
-Get Your OSX SDK if missing: [MacOSX-SDKs](https://github.com/phracker/MacOSX-SDKs)  
+Get Your OSX SDK if missing: [MacOSX-SDKs](https://github.com/phracker/MacOSX-SDKs)
 
-###Last Settings
+### HOMEBREW Installation
 
-In QtCreator Option Git add its path:  
+Install HomeBrew following this guide: [HomeBrew](http://brew.sh/)
 
-       C:\Program Files\Git\bin
+Install XCode command line developer tools:
+
+       $xcode-select --install
+
+Start XCode to get it updated and to able C compiler to create executables.
+
+#### Install libraries  
+
+       $ brew install openssl
+       $ brew install miniupnpc
+       $ brew install libmicrohttpd
+       $ brew install rapidjson
+       $ brew install sqlcipher
        
-and select "Pull" with "Rebase"
+If you have error in linking, run this:
 
-###Compil missing libraries
-####SQLCipher
-       
-       cd <your development directory>
-       git clone https://github.com/sqlcipher/sqlcipher.git
-       cd sqlcipher
-       ./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="-lcrypto"
-       make 
-       sudo make install
+       $sudo chown -R $(whoami) /usr/local/lib/pkgconfig
 
-NOTE, might be necessary to *chmod 000 /usr/local/ssl* temporarily during *./configure* if 
-homebrew uses newer, non-stock ssl dependencies found there. configure might get confused.
+For VOIP Plugin: 
 
-####libMicroHTTPD
-The one with port don't have good support.
+       $ brew install speex
+       $ brew install speexdsp
+       $ brew install opencv
+       $ brew install ffmpeg
 
-       cd <your development directory>
-       wget http://ftpmirror.gnu.org/libmicrohttpd/libmicrohttpd-0.9.46.tar.gz
-       tar zxvf libmicrohttpd-0.9.46.tar.gz
-       cd libmicrohttpd-0.9.46
-       bash ./configure
-       sudo make install
+For FeedReader Plugin:
 
-You can now compile RS into Qt Creator or with terminal
+       $ brew install libxslt
+
+Get Your OSX SDK if missing: [MacOSX-SDKs](https://github.com/phracker/MacOSX-SDKs)
+
+### Last Settings
+
+In QtCreator Option Git add this path:
+
+       /usr/local/bin
+
+select "Pull" with "Rebase"
+
+In QtCreator Projects -> Build Settings -> Build Steps -> Add Additional arguments:
+
+       "CONFIG+=rs_autologin" "CONFIG+=rs_use_native_dialogs" 
+
+### Set your Mac OS SDK version
+
+Edit RetroShare.pro  
+
+    CONFIG += c++14 rs_macos11.1
+
+and then retroshare.pri
+
+    macx:CONFIG *= rs_macos11.1
+    rs_macos10.8:CONFIG -= rs_macos11.1
+    rs_macos10.9:CONFIG -= rs_macos11.1
+    rs_macos10.10:CONFIG -= rs_macos11.1
+    rs_macos10.12:CONFIG -= rs_macos11.1
+    rs_macos10.13:CONFIG -= rs_macos11.1
+    rs_macos10.14:CONFIG -= rs_macos11.1
+    rs_macos10.15:CONFIG -= rs_macos11.1
+
+
+### Link Include & Libraries
+
+Edit your retroshare.pri and add to macx-*  section
+
+    INCLUDEPATH += "/usr/local/opt/openssl/include"
+    QMAKE_LIBDIR += "/usr/local/opt/openssl/lib"
+    QMAKE_LIBDIR += "/usr/local/opt/sqlcipher/lib"
+    QMAKE_LIBDIR += "/usr/local/opt/miniupnpc/lib"
+
+alternative via Terminal
+
+    $ qmake INCLUDEPATH+="/usr/local/opt/openssl/include" QMAKE_LIBDIR+="/usr/local/opt/openssl/lib" QMAKE_LIBDIR+="/usr/local/opt/sqlcipher/lib" QMAKE_LIBDIR+="/usr/local/opt/miniupnpc/lib"
+
+For FeedReader Plugin:
+
+    INCLUDEPATH += "/usr/local/opt/libxml2/include/libxml2"
+
+For building RetroShare with plugins:
+
+    $ qmake \
+    INCLUDEPATH+="/usr/local/opt/openssl/include" QMAKE_LIBDIR+="/usr/local/opt/openssl/lib" \
+    QMAKE_LIBDIR+="/usr/local/opt/sqlcipher/lib" \
+    QMAKE_LIBDIR+="/usr/local/opt/miniupnpc/lib" \
+    INCLUDEPATH+="/usr/local/opt/opencv/include/opencv4" QMAKE_LIBDIR+="/usr/local/opt/opencv/lib" \
+    INCLUDEPATH+="/usr/local/opt/speex/include" QMAKE_LIBDIR+="/usr/local/opt/speex/lib/" \
+    INCLUDEPATH+="/usr/local/opt/speexdsp/include" QMAKE_LIBDIR+="/usr/local/opt/speexdsp/lib/" \
+    INCLUDEPATH+="/usr/local/opt/libxslt/include" QMAKE_LIBDIR+="/usr/local/opt/libxslt/lib" \
+    QMAKE_LIBDIR+="/usr/local/opt/ffmpeg/lib" \
+    LIBS+=-lopencv_videoio \
+    CONFIG+=retroshare_plugins \
+    CONFIG+=rs_autologin \
+    CONFIG+=rs_use_native_dialogs \
+    CONFIG+=release \
+    ..
+
+### Compile RetroShare 
+
+You can now compile RetroShare into Qt Creator or with Terminal
 
        cd <your development directory>
        git clone https://github.com/RetroShare/RetroShare.git retroshare
        cd retroshare
        qmake; make
 
-You can find compiled application on *./retroshare/retroshare-gui/src/RetroShare06.app*
+You can change Target and SDK in *./retroshare.pri:82* changing value of QMAKE_MACOSX_DEPLOYMENT_TARGET and QMAKE_MAC_SDK
+
+You can find the compiled application at *./retroshare/retroshare-gui/src/retroshare.app*
+
+### Copy Plugins
+
+    $ cp \
+    ./plugins/FeedReader/lib/libFeedReader.dylib \
+    ./plugins/VOIP/lib/libVOIP.dylib \
+    ./plugins/RetroChess/lib/libRetroChess.dylib \
+    ./retroshare-gui/src/RetroShare.app/Contents/Resources/
