@@ -7,24 +7,18 @@
 ###Install package dependencies:
 #### Debian/Ubuntu
 ```bash
-   sudo apt-get install libglib2.0-dev libupnp-dev qt4-dev-tools \
-       libqt4-dev libssl-dev libxss-dev libgnome-keyring-dev libbz2-dev \
-       libqt4-opengl-dev libqtmultimediakit1 qtmobility-dev libsqlcipher-dev \
-       libspeex-dev libspeexdsp-dev libxslt1-dev libcurl4-openssl-dev \
-       libopencv-dev tcl8.5 libmicrohttpd-dev build-essential cmake 
-```
-In Ubuntu 18.04 and Debian 9 there's no libqtmultimediakit1 and qtmobility-dev packages available. In order to compile in Ubuntu 18.04 you need to install these extra/alternative packages:
-```bash
-   sudo apt-get install libqt5x11extras5-dev qtmultimedia5-dev qttools5-dev
+   sudo apt-get install g++ cmake qt5-default qtmultimedia5-dev \
+       libqt5x11extras5-dev libbz2-dev libssl-dev libsqlcipher-dev \
+       libupnp-dev libxss-dev rapidjson-dev
 ```
 
 #### openSUSE
 ```bash
-   sudo zypper install gcc-c++ libqt4-devel libgnome-keyring-devel \
-       glib2-devel speex-devel libssh-devel protobuf-devel libcurl-devel \
-       libxml2-devel libxslt-devel sqlcipher-devel libmicrohttpd-devel \
-       opencv-devel speexdsp-devel libupnp-devel libavcodec-devel
+   sudo zypper install gcc-c++ cmake libqt5-qtbase-devel \
+   libqt5-qtmultimedia-devel libqt5-qtx11extras-devel libbz2-devel \
+   libopenssl-devel libupnp-devel libXss-devel sqlcipher-devel rapidjson-devel
 ```
+
 #### Arch Linux
 ```bash
    pacman -S base-devel libgnome-keyring libmicrohttpd libupnp libxslt \
