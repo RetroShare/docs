@@ -12,11 +12,24 @@
        libupnp-dev libxss-dev rapidjson-dev
 ```
 
+Additional dependencies for plugins:
+```bash
+   sudo apt-get install libavcodec-dev libcurl4-openssl-dev \
+   libopencv-dev libspeexdsp-dev libxml2-dev libxslt1-dev
+```
+
+
 #### openSUSE
 ```bash
    sudo zypper install gcc-c++ cmake libqt5-qtbase-devel \
    libqt5-qtmultimedia-devel libqt5-qtx11extras-devel libbz2-devel \
    libopenssl-devel libupnp-devel libXss-devel sqlcipher-devel rapidjson-devel
+```
+
+Additional dependencies for plugins:
+```bash
+   sudo zypper install ffmpeg-4-libavcodec-devel libcurl-devel libxml2-devel \
+   libxslt-devel opencv-devel speex-devel speexdsp-devel
 ```
 
 #### Arch Linux
