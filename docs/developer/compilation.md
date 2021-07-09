@@ -15,7 +15,7 @@
 Additional dependencies for plugins:
 ```bash
    sudo apt-get install libavcodec-dev libcurl4-openssl-dev \
-   libopencv-dev libspeexdsp-dev libxml2-dev libxslt1-dev
+   libqt5multimedia5-plugins libspeexdsp-dev libxml2-dev libxslt1-dev
 ```
 
 
@@ -29,7 +29,7 @@ Additional dependencies for plugins:
 Additional dependencies for plugins:
 ```bash
    sudo zypper install ffmpeg-4-libavcodec-devel libcurl-devel libxml2-devel \
-   libxslt-devel opencv-devel speex-devel speexdsp-devel
+   libxslt-devel speex-devel speexdsp-devel
 ```
 
 #### Arch Linux
