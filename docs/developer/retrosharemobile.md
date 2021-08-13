@@ -7,6 +7,23 @@
 - AndroidStudioDir: C:\Program Files\Android\Android Studio
 - RSMobileDir:      C:\Users\your-user-name\Documents\GitHub\retroshare-mobile
 
+# Get RetroShare Mobile
+
+via GitHub Desktop: [GitHub Desktop Download](https://central.github.com/deployments/desktop/desktop/latest/win32)
+
+In GitHub Desktop -> Clone Repository -> URL
+
+       Add Repository URL: https://github.com/RetroShare/retroshare-mobile.git and Clone
+
+# Install Depencies
+
+Download or Clone:
+	https://gitlab.com/Kumaravinash9/retroshare-dart-see.git
+	to C:\Users\your-user-name\Documents\GitHub\retroshare-dart-see
+
+	https://github.com/Kumaravinash9/Retroshare-Wrapper.git
+	to C:\Users\your-user-name\Documents\GitHub\retroshare_api_wrapper
+
 # Install Flutter 
 1. Download and install any flavour of git for windows.
    (see: https://flutter.dev/docs/get-started/install/windows#system-requirements)
@@ -58,23 +75,22 @@
    it should now tell all (but maybe chrome) is OK.
 
 # RetroShare Mobile: Prepare Project
-1. Git: clone RetroShare mobile locally as RSMobileDir  (https://github.com/RetroShare/retroshare-mobile)
-2. Open Flutter Console
-3. CD to RetroShare mobile dir and type:
+1. Open Flutter Console
+2. CD to RetroShare mobile dir and type:
 ```
    flutter pub get
 ```
    to update the flutter package dependancies as need in the project.
 
-4. Alternative: open the RSMobileDir in Android Studio
+3. Alternative: open the RSMobileDir in Android Studio
 
 # Activate USB Debug Mode of the mobile
-5. in settings type usb in search
-6. select usb-debugging
-7. activate it
-8. Plug the mobile with usb to the pc
-9. if this is the frist time a dialog appears to accepts the key
-10. check in flutter console if the device is available:
+4. in settings type usb in search
+5. select usb-debugging
+6. activate it
+7. Plug the mobile with usb to the pc
+8. if this is the frist time a dialog appears to accepts the key
+9. check in flutter console if the device is available:
 ```
     flutter devices
 ```
