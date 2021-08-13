@@ -11,9 +11,9 @@
 
 via GitHub Desktop: [GitHub Desktop Download](https://central.github.com/deployments/desktop/desktop/latest/win32)
 
-In GitHub Desktop -> Clone Repository -> URL
+In GitHub Desktop -> Clone Repository -> URL > ADD URL & Clone
 
-    https://github.com/RetroShare/retroshare-mobile.git and Clone
+https://github.com/RetroShare/retroshare-mobile.git
 
 # Install Depencies
 
