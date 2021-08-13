@@ -12,8 +12,11 @@
    (see: https://flutter.dev/docs/get-started/install/windows#system-requirements)
 1. Download Flutter stable: https://flutter.dev/docs/get-started/install/windows#get-the-flutter-sdk
 2. Extract the Zip (example C:\Users\<your-user-name>\Documents\flutter_windows_stable_x.x.x-stable.)
-3. Add in environment variables for your account to the PATH-variable of USER context separated by ';' the explicit full path to flutter\bin: $(FlutterDir)\bin
-4. Open you Flutter dir and start flutter_console.bat and type:
+3. Add in environment variables for your account to the PATH-variable of USER context separated by ';' the explicit full path to flutter\bin: 
+```
+ FlutterDir\bin
+```
+4. Open your Flutter dir and start flutter_console.bat and type:
 ```bash
       flutter doctor
 ```
@@ -26,8 +29,8 @@
 1. Install Android Studio for windows: https://developer.android.com/studio
    - follow the default settings and ensure the installation is done to AndroidStudioDir
 2. After installation start Android Studio and let it update if it queries for some
-3. press NEXT-buttons until it is no longer shown
-4. press FINISH and follow until finish
+3. Press NEXT-buttons until it is no longer shown
+4. Press FINISH and follow until finish
 5. On Welcome-Page go into plugins and
    - install dart and flutter and let AS restart
 6. On Welcome page select projects: More Action/SDK Manager and than Tab SDK-Tools.
