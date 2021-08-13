@@ -13,16 +13,16 @@ via GitHub Desktop: [GitHub Desktop Download](https://central.github.com/deploym
 
 In GitHub Desktop -> Clone Repository -> URL
 
-       Add Repository URL: https://github.com/RetroShare/retroshare-mobile.git and Clone
+    https://github.com/RetroShare/retroshare-mobile.git and Clone
 
 # Install Depencies
 
 Download or Clone:
 
-    https://gitlab.com/Kumaravinash9/retroshare-dart-see.git
+https://gitlab.com/Kumaravinash9/retroshare-dart-see.git
     to C:\Users\your-user-name\Documents\GitHub\retroshare-dart-see
 
-    https://github.com/Kumaravinash9/Retroshare-Wrapper.git
+https://github.com/Kumaravinash9/Retroshare-Wrapper.git
     to C:\Users\your-user-name\Documents\GitHub\retroshare_api_wrapper
 
 # Install Flutter 
@@ -32,11 +32,11 @@ Download or Clone:
 2. Extract the Zip (example C:\Users\<your-user-name>\Documents\flutter_windows_stable_x.x.x-stable.)
 3. Add in environment variables for your account to the PATH-variable of USER context separated by ';' the explicit full path to flutter\bin: 
 ```
- FlutterDir\bin
+   FlutterDir\bin
 ```
 4. Open your Flutter dir and start flutter_console.bat and type:
 ```bash
-      flutter doctor
+   flutter doctor
 ```
    - Flutter checks its environment and will most likely tell you, that
    - Android SDK is missing
