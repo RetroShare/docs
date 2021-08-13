@@ -15,7 +15,7 @@ In GitHub Desktop -> Clone Repository -> URL > ADD URL & Clone
 
 https://github.com/RetroShare/retroshare-mobile.git
 
-# Install Depencies
+# Install Dependencies
 
 Download or Clone:
 
