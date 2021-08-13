@@ -20,9 +20,11 @@ In GitHub Desktop -> Clone Repository -> URL
 Download or Clone:
 
 https://gitlab.com/Kumaravinash9/retroshare-dart-see.git
+
     to C:\Users\your-user-name\Documents\GitHub\retroshare-dart-see
 
 https://github.com/Kumaravinash9/Retroshare-Wrapper.git
+
     to C:\Users\your-user-name\Documents\GitHub\retroshare_api_wrapper
 
 # Install Flutter 
