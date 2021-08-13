@@ -1,11 +1,11 @@
-# Setup RetroShare mobile: Flutter & Android Studio Build Environment
+# Setup RetroShare Mobile: Flutter & Android Studio Build Environment
 ## Windows Install (https://flutter.dev/docs/get-started/install/windows)
 
 # Install Directories 
 
-- FlutterDir:       C:\Users\<your-user-name>\Documents\flutter_windows_2.2.3-stable\flutter
+- FlutterDir:       C:\Users\your-user-name\Documents\flutter_windows_2.2.3-stable\flutter
 - AndroidStudioDir: C:\Program Files\Android\Android Studio
-- RSMobileDir:      C:\Users\<your-user-name>\Documents\GitHub\retroshare-mobile
+- RSMobileDir:      C:\Users\your-user-name\Documents\GitHub\retroshare-mobile
 
 # Install Flutter 
 1. Download and install any flavour of git for windows.
@@ -17,24 +17,24 @@
 ```bash
       flutter doctor
 ```
-   - flutter checks its environment and will most likely tell you, that
+   - Flutter checks its environment and will most likely tell you, that
    - Android SDK is missing
    - Android Studio is missing
-   - it may also query for chrome but this is not needed
+   - It may also query for chrome but this is not needed
 
 # Install Android Studio
 1. Install Android Studio for windows: https://developer.android.com/studio
    - follow the default settings and ensure the installation is done to AndroidStudioDir
-1. After installation start Android Studio and let it update if it queries for some
-2. press NEXT-buttons until it is no longer shown
-3. press FINISH and follow until finish
-4. On Welcome-Page go into plugins and
+2. After installation start Android Studio and let it update if it queries for some
+3. press NEXT-buttons until it is no longer shown
+4. press FINISH and follow until finish
+5. On Welcome-Page go into plugins and
    - install dart and flutter and let AS restart
-1. On Welcome page select projects: More Action/SDK Manager and than Tab SDK-Tools.
+6. On Welcome page select projects: More Action/SDK Manager and than Tab SDK-Tools.
    - Ensure alls "Android SDK"* Entries are installed and especially
    - Ensure "Android SDK command line tools" to be installed
-1. Close the SDK Dialog
-2. If you wish to use simulated mobiles you may later select in "more actions" AVD Manager and create emulated devices as you need.
+7. Close the SDK Dialog
+8. If you wish to use simulated mobiles you may later select in "more actions" AVD Manager and create emulated devices as you need.
 
 # Associate Flutter and Android Studio
 1. Tell Flutter where to find Android Studio:
@@ -48,37 +48,37 @@
    and accept all.
 
 # Final check of Flutter installation
-1. In new cmd-console type:
+3. In new Console type:
 ```
    flutter doctor
 ```
    it should now tell all (but maybe chrome) is OK.
 
-# RetroShare mobile: Prepare project
-2. Git: clone RetroShare mobile locally as RSMobileDir  (https://github.com/RetroShare/retroshare-mobile)
-3. Open flutter_console.bat
-4. CD to RetroShare mobile dir and type:
+# RetroShare Mobile: Prepare Project
+1. Git: clone RetroShare mobile locally as RSMobileDir  (https://github.com/RetroShare/retroshare-mobile)
+2. Open Flutter Console
+3. CD to RetroShare mobile dir and type:
 ```
    flutter pub get
 ```
    to update the flutter package dependancies as need in the project.
 
-5. Alternative: open the RSMobileDir in Android Studio
+4. Alternative: open the RSMobileDir in Android Studio
 
 # Activate USB Debug Mode of the mobile
-7. in settings type usb in search
-8. select usb-debugging
-9. activate it
-10. Plug the mobile with usb to the pc
-11. if this is the frist time a dialog appears to accepts the key
-12. check in flutter console if the device is available:
+5. in settings type usb in search
+6. select usb-debugging
+7. activate it
+8. Plug the mobile with usb to the pc
+9. if this is the frist time a dialog appears to accepts the key
+10. check in flutter console if the device is available:
 ```
     flutter devices
 ```
    should now list your mobile as available
 
 # Run the apk on mobile
-1. load the service apk to the mobile and start it
+1. Load the service apk to the mobile and start it
 ```
    flutter run --release
 ```
@@ -104,18 +104,19 @@ Hints in context: https://gitlab.com/elRepo.io/elRepo.io-android/-/issues/43
 
 ##Tracing RetroShare-Service in the context of the android-activities
 As above with the adb.exe tool.
-If you want manually check the communication interface of the servcice 
-
+If you want manually check the communication interface of the service 
 you may use the cUrl tool.
 To use it you must redirect establich a redirection of the ports:
+```
 adb forward tcp:9091 tcp:9092
+```
 than you should be able to talk to the servcie directly.
 for exc. like:
 ```
 curl http://127.0.0.1:9091/RsJsonApi/version -v
 ```
 
-This would for exc generate an output like
+This would for exc generate an output like:
 ```
     *   Trying 127.0.0.1...
     * TCP_NODELAY set
