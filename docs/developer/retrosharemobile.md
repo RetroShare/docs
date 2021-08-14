@@ -96,6 +96,7 @@ https://github.com/Kumaravinash9/Retroshare-Wrapper.git
    than click the button "Setup SDK" on the right side of this note.
 5. In the opened dialog select any android SDK and click OK.
 6. Restart Android Studio.
+
 Now your project - this is to do in any new project - is able to define and use emulated phones.
 
 # Activate USB Debug Mode of the mobile
