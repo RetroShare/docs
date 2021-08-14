@@ -86,6 +86,18 @@ https://github.com/Kumaravinash9/Retroshare-Wrapper.git
 
 3. Alternative: open the RSMobileDir in Android Studio
 
+## Prepare your project for use with emulated devices in Android Studio
+1. open Android studio over the RetroShare Mobile project
+2. Within the opened Android Studio on the left side in the Project-Tab open the path:  
+   "retroshare-mobile/android/app/src/main/java/io/GeneratedPluginRegistrant.java"
+3. Start "GeneratedPluginRegistrant.java" by dobbleclick on it.
+4. On the rightside on top of the opened registrant:  
+   If you see a note "Module SDK is not defined",  
+   than click the button "Setup SDK" on the right side of this note.
+5. In the opened dialog select any android SDK and click OK.
+6. Restart Android Studio.
+Now your project - this is to do in any new project - is able to define and use emulated phones.
+
 # Activate USB Debug Mode of the mobile
 4. in settings type usb in search
 5. select usb-debugging
