@@ -90,8 +90,8 @@ class pqiloopback: public PQInterface
 
 ```
 
-Pay attention to the type of parameters as the compiler do, or you will end up
-having a difficult to tackle down unexpected behaviour.
+Pay attention to the type of parameters as the compiler does, or you will end up
+having a difficult time tackling unexpected behaviour.
 
 ### Unused named parameters casting
 
@@ -131,7 +131,7 @@ class pqiloopback: public PQInterface
 
 The problems we experienced compiling for Windows due to the usage of apparently
 innocent identifiers such as `lst1`, `lst2`, `grp1`, `grp2` suggest we should be
-expecially carefull in chosing identifiers names, so avoid to use names that may
+especially careful in choosing identifiers names, so avoid to use names that may
 easly create conficts with system and library macros such as `win32`, `unix`
 etc.
 

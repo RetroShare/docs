@@ -3,7 +3,7 @@
 RetroShare builds a decentralized, serverless, distributed, peer-to-peer mesh network. 
 
 The meaning of these terms has changed in time and so different 
-interpretation are met. 
+interpretations are met. 
  
  - decentralized  
  - distributed  
@@ -17,8 +17,8 @@ Let's explain the different kinds of networks.
 
 The first architecture of computer networks was **client-server architecture**. 
 If the central server is offline, the whole network breaks. 
-The military made first thoughts to make the computer network still 
-avaiable in the case of a *first strike* of the opponent. 
+The military had first thoughts to make the computer network still 
+available in the case of a *first strike* by an opponent. 
 
 ![network types](../img/concept/network-history.png "Network Types")  
 <sub>Baran, Paul. [On Distributed Communication Networks](http://www.rand.org/pubs/research_memoranda/RM3420/RM3420-chapter1.html): 
@@ -80,17 +80,17 @@ which tends to monopolization.
 The downside of this network is, the central infrastructure is a single 
 point of failure. If something happens with the server, all users are affected 
 and the service is broken for all. 
-Peer Pressure makes it hard to widthstand to not use these services.  
+Peer Pressure makes it hard to withstand to not use these services.  
 These Services are often free (as in free beer) but include hidden costs. 
-User generated data is gathered all the time on each possible way.  
+User generated data is gathered all the time in each possible way.  
 When a third party or the company wants to censor/filter/block parts of 
 the communication they can do whenever they want with ease. 
 They have the right to do this, because it's their property.  
 
 ##Federated Servers
 E-Mail is a decentralized network by design. Everyone can run a Mail 
-for it's own purpose. If a single Mail Server is offline for whatever 
-reason, the other Mail Server's will still work and send receive mails. 
+for its own purpose. If a single Mail Server is offline for whatever 
+reason, the other Mail Servers will still work and send/receive mails. 
 This **client-to-server-to-server-to-client architectures** is also 
 referred as **Federated Network**. 
 
@@ -99,7 +99,7 @@ are Diaspora and XMPP/Jabber.
 
 Users become a member of a server, and in principle only connect directly 
 with their own server; these servers in turn are connected to each other 
-to allow users in different server to interact with each other. 
+to allow users in different servers to interact with each other. 
 This matches the **distributed network of centralized networks** description 
 given above quite well.
 
@@ -117,7 +117,7 @@ Small Mail Providers had also to shut down in the last years, for example
 the case of Lavabit. They did not comply with the government which ordered 
 them to spy on their users. 
 Other mail providers do fully comply with the orders and 
-hand over the infrastructure as a whole to the surveilance state. 
+hand over the infrastructure as a whole to the surveillance state. 
 
 ##Decentralized  
 
@@ -127,7 +127,7 @@ hand over the infrastructure as a whole to the surveilance state.
 
 BitTorrent is well known for it's decentralization. It started with a 
 torrent tracker server to keep the torrent files and help the clients to 
-connect o each other. So a single server does not share any files in the 
+connect to each other. So a single server does not share any files in the 
 network, but distribute the load of downloads between all clients. Each 
 client is doing uploads and downloads. 
 
@@ -135,7 +135,7 @@ client is doing uploads and downloads.
 <sub>Torrent Swarm with a central Torrent Tracker.</sub>  
 
 This was a single point of failure as the tracker was a centralized service. 
-Someone had to operate and pay the server, could be hold liable for 
+Someone had to operate and pay the server, and could be held liable for 
 the Users doing or serving the torrent files. Torrent Files are not 
 containing any copyrighted material. Tracker owners have been targeted and 
 had to close down the service.  
@@ -155,18 +155,18 @@ even malicious nodes can join a swarm and monitor the activity with ease.
 ![partially connected network](../img/concept/partially_connected.png "Partially Connected Network")  
 <sub>[Partially Connected Network](https://en.wikipedia.org/wiki/Network_topology#Partially_connected_network) & [Mesh Network](https://en.wikipedia.org/wiki/Mesh_networking)</sub>  
 
- - decentralized  
-   Clients do not require on a central service. When a node is under attack, 
+ - Decentralized  
+   Clients do not require a central service. When a node is under attack, 
    the other parts of the network are still working without interruption.  
- - serverless  
+ - Serverless  
    Each node is server&client at the same time. No external service is 
    necessary for the network to function.  
- - peer to peer  
+ - Peer to Peer  
    Nodes are connected directly to each other.  
- - meshed  
-   each node relays data for the network. 
- - distributed  
-   meshed nodes cooperate in the distribution of data in the network   
+ - Meshed  
+   Each node relays data for the network. 
+ - Distributed  
+   Meshed nodes cooperate in the distribution of data in the network   
 
 ![RetroShare Network](../img/concept/retro_network.png "RetroShare")  
 A [Small World Network](https://en.wikipedia.org/wiki/Small-world_network) 

@@ -18,7 +18,7 @@ Creating a new location with the same user is easy, if you know how.
 Bunny owns his first location “hole” and is connected with 
 Alice/Wonderland and RedQueen/Hive. On Bunny’s new PC he creates a 
 new RetroShare node and imports his contacts from the first node. 
-Bunnys friends do not need to take care to add the new location, it 
+Bunny's friends do not need to take care to add the new location, it 
 just gets listed at Bunny’s nodes in their contact list.  
 
  
