@@ -2,14 +2,14 @@
 
 ##Introduction  
 Compiling an application for Android is not as easy as one would imagine, 
-expecially one like RetroShare that has a big codebase and is not well 
+especially one like RetroShare that has a big codebase and is not well 
 documented. This document is aimed to empower the reader so she can 
-hopefully succed or at least have a significant help in compiling her 
+hopefully succeed or at least have a significant help in compiling her 
 own RetroShare APK package installable on Android.
 
 ##Preparing The Environement
 
-First of all setup your Qt for Android development environement 
+First of all setup your Qt for Android development environment 
 following the guide on the [Qt for android web site](http://doc.qt.io/qt-5/androidgs.html).
 At this point you should have Android SDK, Android NDK, and Qt for 
 Android working fine, and you should be capable of executing on an 
@@ -74,7 +74,7 @@ WARNING: This may need a slight modification if you have a different Qt version.
 
 ##Preparing Qt Creator
 
-Now that your environement is set up you should configure Qt Creator for 
+Now that your environment is set up you should configure Qt Creator for 
 Android following the [official guide](http://doc.qt.io/qtcreator/creator-developing-android.html). 
 At the end of this step your Qt Creator should recognize the Android compiler 
 and the Qt for Android kit. As we use a custom toolchain one more step is needed.
@@ -117,7 +117,7 @@ WARNING: Some versions of QtCreator try to find the Android SDK in **/opt/androi
 A workaround to this is to make a symbolic link there pointing to your 
 SDK installation path, like **mkdir -p /opt/android/sdk && ln -s /home/user/android-sdk-linux /opt/android/sdk** 
 
-##Furter Readings
+##Further Readings
 
 - [http://doc.qt.io/qt-5/android-support.html](http://doc.qt.io/qt-5/android-support.html)  
 - [https://developer.android.com/ndk/guides/libs.html](https://developer.android.com/ndk/guides/libs.html)  

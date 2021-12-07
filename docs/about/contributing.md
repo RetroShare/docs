@@ -20,7 +20,7 @@ Artworks like a logo, buttons, etc are useful too.
 
 RetroShare is working so well and the internal forums and chatrooms 
 are so active, we tend to forget about these external forum's and 
-mailinglist's. Still they are read and you will receive answer. 
+mailinglist's. Still they are read and you will receive an answer. 
 
 ##Translation
 This project uses [Transifex](https://www.transifex.com/beluga/retroshare/) 

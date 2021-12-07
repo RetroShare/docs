@@ -126,14 +126,14 @@ Add to the PATH environment variable
 
        ;C:\Qt\5.5\mingw492_32\bin;C:\Qt\Tools\mingw492_32\bin;C:\Qt\Tools\mingw492_32\opt\bin  
 
-Depends on wich version of Qt you use.  
+Depends on which version of Qt you use.  
 Change build-all-mingw32make.bat with these values too if you don't use MSys2.  
 
 ###MSYS2 Installation
 
 Choose your MSYS2 installer here: [MSYS2](http://msys2.github.io/)
 
-Follow install procedure.  
+Follow the install procedure.  
 Don't forget to sync & Update pacman.  
 
        pacman --needed -Sy bash pacman pacman-mirrors msys2-runtime  
@@ -142,7 +142,7 @@ Restart console
 
        pacman -Su  
 
-Install all default programms  
+Install all default programs  
 
        pacman -S base-devel git mercurial cvs wget p7zip gcc perl ruby python2  
 
@@ -245,7 +245,7 @@ In GitHub Desktop -> Clone Repository -> URL
 
 Install MacPort and XCode following this guide: [MacPort and XCode](http://guide.macports.org/#installing.xcode)
 
-Start XCode to get it updated and to able C compiler to create executables.
+Start XCode to get it updated and to enable the C compiler to create executables.
 
 #### Install libraries  
 

@@ -2,7 +2,7 @@
 I2P is an anonymous overlay network - a network within a network. 
 It is intended to protect communication from dragnet surveillance and 
 monitoring by third parties such as ISPs. 
-I2P can run Hidden Services similar to [Tor Hidden Serives](../tutorial/tor-hidden-rs-node/). 
+I2P can run Hidden Services similar to [Tor Hidden Services](../tor-hidden-rs-node/). 
 to route encrypted traffic inside the network to anonymize the Client and the Server.  
 
 RetroShare can be run behind an I2P Hidden Service for incoming connections. 
@@ -20,7 +20,7 @@ run a hidden service from behind your firewall.
 ##Hidden Service Setup  
 ###I2P Installation  
 This Guide requires to have I2P already installed on your System.  
-If not, please refer to the offical [I2P Documentation](https://geti2p.net/en/docs) 
+If not, please refer to the official [I2P Documentation](https://geti2p.net/en/docs) 
 on how to install I2P.  
 
 Download I2P for various operating systems: [I2P Download](https://geti2p.net/en/download)
@@ -67,7 +67,7 @@ to just allow 127.0.0.1
 The I2P router can automatically start this tunnel for you when the 
 router is started. This can be useful for frequently-used tunnels 
 (especially server tunnels), but for tunnels that are only used 
-occassionally it would mean that the I2P router is creating and 
+occasionally it would mean that the I2P router is creating and 
 maintaining unnecessary tunnels.  
 ![i2p Auto Start](../img/tutorial/i2p/auto_start.png "i2p Auto Start")  
 

@@ -26,7 +26,7 @@ address to its users. In fact, because you don't use any public
 address, you can run a hidden service from behind your firewall.  
 
 ##RetroShare now bundled with Tor
-Since Version 0.6.5 RetroShare has the Tor Software Bundeled within it.
+Since Version 0.6.5 RetroShare has the Tor Software bundled within it.
 The easiest option for running a single RetroShare instance using Tor is to select 
 the 'Hidden Node (over Tor)' from the 'Node Type' dropdown menu during Profile Setup
 ![select hidden node over tor](../img/tutorial/tor/rs_tor_setup_screen.png "Select Hidden Node over Tor")  
@@ -34,7 +34,7 @@ the 'Hidden Node (over Tor)' from the 'Node Type' dropdown menu during Profile S
 ##Hidden Service Setup  
 ###Tor Installation
 This Guide requires to have Tor already installed on your System.  
-If not, please refer to the offical Tor Documentation on how to install Tor.  
+If not, please refer to the official Tor Documentation on how to install Tor.  
 
  - [Tor on Debian/Ubuntu](https://www.torproject.org/docs/debian.html.en)  
  - [Tor on RPM based RHEL/CentOS/Fedora](https://www.torproject.org/docs/rpms.html.en)  
