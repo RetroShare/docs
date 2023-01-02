@@ -33,7 +33,7 @@ Optional: (advanced options)
    Name of your first Identity ([GXS-ID](../user-guide/interface/#pseudonymous-identities)) 
    Used when you write in chat lobbies, forums and channel comments. Can be setup later if you need one. 
 
-Move your mouse to create randomness for the Key creation. 
+Move your mouse to create randomness for the Key creation. We recommend getting the slider to 100%
 
 ![Enter Profile Values](../img/first-steps/enter_profile_values_new.png "Enter Profile Values")  
 
