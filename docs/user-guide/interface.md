@@ -3,14 +3,14 @@
 ##News-Feed
 ![news feed interface](../img/interface/newsfeed.png "Newsfeed")  
 
-The News Feed diplays the last events on your network, 
+The News Feed displays the last events on your network, 
 sorted by the time you received them. 
 This gives you a summary of the activity of your friends. 
 You can configure which events to show by pressing on [Options](../user-guide/settings/#notify).  
 
 The various events shown are:  
 
- - Connection attempts (useful to make friends with new people and cotnrol who's trying to reach you)
+ - Connection attempts (useful to make friends with new people and control who's trying to reach you)
  - Channel and Forum posts
  - New Channel and Forums you can subscribe to 
  - Private messages from your friends
@@ -23,7 +23,7 @@ and this friend sent a message.
 ##Network
 ![network interface](../img/interface/network.png "Network")  
 The Network tab shows your friend RetroShare nodes: the neighbor RetroShare nodes that are connected to you.  
-You can group noed together to allow a finer level of information access, for instance to only allow some nodes to see some of your files. 
+You can group nodes together to allow a finer level of information access, for instance to only allow some nodes to see some of your files. 
 
 On the right, you will find 3 useful tabs:
 
@@ -221,7 +221,7 @@ Accept your circle invitation by right clicking
 ##File Sharing
 ![filesharing interface](../img/interface/filesharing.png "File Sharing")  
 
-RetroShare birngs two ways fo transferring files: 
+RetroShare provides two ways of transferring files:
 
  - direct file transfers from your friends
  - distant anonymous tunneled transfers  
