@@ -7,7 +7,7 @@ repo_url: https://github.com/RetroShare/docs
 
 site_favicon: favicon.ico
 
-pages:
+nav:
 - Home: index.md
 - User Guide: 
     - Installation: user-guide/installation.md
