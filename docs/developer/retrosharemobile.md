@@ -3,10 +3,10 @@
 
 # Install Directories 
 
-- FlutterDir:       C:\Users\your-user-name\Documents\flutter_windows_2.2.3-stable\flutter
-- AndroidStudioDir: C:\Program Files\Android\Android Studio
-- RSMobileDir:      C:\Users\your-user-name\Documents\GitHub\retroshare-mobile
-- RSPlatformTools:  C:\Users\your-user-name\AppData\Local\Android\Sdk\platform-tools
+- FlutterDir:       ``C:\Users\your-user-name\Documents\flutter_windows_x.xx.x-stable\flutter``
+- AndroidStudioDir: ``C:\Program Files\Android\Android Studio``
+- RSMobileDir:      ``C:\Users\your-user-name\Documents\GitHub\retroshare-mobile``
+- RSPlatformTools:  ``C:\Users\your-user-name\AppData\Local\Android\Sdk\platform-tools``
 
 # Get RetroShare Mobile
 
@@ -15,6 +15,13 @@ via GitHub Desktop: [GitHub Desktop Download](https://central.github.com/deploym
 In GitHub Desktop -> Clone Repository -> URL > ADD URL & Clone
 
 https://github.com/RetroShare/retroshare-mobile.git
+
+# Install Git
+
+1. Download and install Git for windows
+   - https://gitforwindows.org/
+   - Git path : ``C:\Program Files\Git\cmd\git.exe``
+   - Add in Environment Variables of your account, Git to PATH: ``C:\Program Files\Git\cmd``
 
 # Install Flutter 
 1. System requirements: https://flutter.dev/docs/get-started/install/windows#system-requirements
