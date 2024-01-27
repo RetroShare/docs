@@ -16,18 +16,6 @@ In GitHub Desktop -> Clone Repository -> URL > ADD URL & Clone
 
 https://github.com/RetroShare/retroshare-mobile.git
 
-# Install Dependencies
-
-Download or Clone:
-
-https://gitlab.com/Kumaravinash9/retroshare-dart-see.git
-
-    to C:\Users\your-user-name\Documents\GitHub\retroshare-dart-see
-
-https://github.com/Kumaravinash9/Retroshare-Wrapper.git
-
-    to C:\Users\your-user-name\Documents\GitHub\retroshare_api_wrapper
-
 # Install Flutter 
 1. System requirements: https://flutter.dev/docs/get-started/install/windows#system-requirements
 2. Download Flutter stable: https://flutter.dev/docs/get-started/install/windows#get-the-flutter-sdk
@@ -58,6 +46,11 @@ https://github.com/Kumaravinash9/Retroshare-Wrapper.git
    - Ensure "Android SDK command line tools" to be installed
 7. Close the SDK Dialog
 8. If you wish to use simulated mobiles you may later select in "more actions" AVD Manager and create emulated devices as you need.
+9. Set Flutter SDK Path & Dart SDK Path in Android Studio
+   - File -> Settings -> Languages & Frameworks  -> Flutter -> Set Flutter SDK Path:
+   - ``$(FlutterRoot)\flutter`` and click on OK
+   - File -> Settings -> Languages & Frameworks  -> Dart    -> Set Dart SDK Path:
+   - ``$(FlutterDir)\bin\cache\dart-sdk`` and click on OK
 
 # Associate Flutter and Android Studio
 1. Tell Flutter where to find Android Studio:
