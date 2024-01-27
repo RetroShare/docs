@@ -76,6 +76,8 @@ https://github.com/RetroShare/retroshare-mobile.git
    flutter doctor
 ```
    it should now tell all (but maybe chrome) is OK.
+   ![](../img/developer/flutterdoctor.png "")
+
 
 # RetroShare Mobile: Prepare Project
 1. Open Flutter Console
@@ -124,7 +126,7 @@ Now your project - this is to do in any new project - is able to define and use 
    Add in environment variables for your account to the PATH-variable of USER context separated by ';' the explicit full path to the command_tools: $(RSPlatformTools) where the adb.exe houses which we will need.
 2. Open a cmd-console within the directory of your service apk
 3. type in cmd:  
-   adb install "YOUR_SERVCIE_APK.apk" <return>
+   and install "YOUR_SERVCIE_APK.apk" <return>
 
 ## Run the RestroShare Mobile
 type in cmd console:  
