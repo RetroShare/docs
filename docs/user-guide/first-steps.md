@@ -115,8 +115,8 @@ Share your Retroshare ID with your friend and request the Retroshare ID from you
 
 ![Invite](../img/first-steps/copy_retroshareid.png "Invite")
 
-Click on the Add Friend Button.
-![Invite](../img/first-steps/addfriend.png "Add Friend")  
+Click on the ![Invite](../img/first-steps/addfriend.png "Add Friend") Button.
+
 
 Paste Friend's RetoShare ID and click on NEXT.  
 ![Accept Certificate](../img/first-steps/paste_retroshareid.png "Paste Retroshare ID")  
@@ -145,7 +145,7 @@ It's important to accept each other vice versa. Your friend must add your
 Retroshare ID to his Network/Friendlist.
 And you need to add the Retroshare ID from your Friend to your Network/Friendlist
 
-It's important that on both side DHT is working, first time it will take to get connected with DHT.
+It's important that on both side DHT is working, first time it will take time to get connected with DHT.
 When DHT still not works, you need to try use old certificate Format.
  
 
