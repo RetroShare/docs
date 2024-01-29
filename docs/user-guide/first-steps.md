@@ -96,7 +96,8 @@ You may want to create as many additional Identities as well if needed.
 
 ![Identity](../img/first-steps/identity.png "signed Identity") 
 
-To change the Avatar of your Identity right click it.  
+To change the Avatar of your Identity right click it. 
+Or click on the Edit identity button. 
 ![Edit Identity](../img/first-steps/edit_id.png "Edit Identity")  
 
 ![Edit Identity](../img/first-steps/edit_identity.png "Edit Identity")  
