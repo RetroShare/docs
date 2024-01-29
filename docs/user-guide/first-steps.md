@@ -109,38 +109,45 @@ And change your avatar picture.
 ##First Friend
 ![Invite](../img/first-steps/invite.png "Invite")  
 
-Click on the ![Invite](../img/first-steps/invite_40.png "Invite")   Add Friend Button. 
 
 The fastest way is to exchange the Retroshare ID directly with your friends. 
-Copy your Retroshare ID to clipboard and send it by mail
+Share your Retroshare ID with your friend and request the Retroshare ID from your Friend.
+
 ![Invite](../img/first-steps/copy_retroshareid.png "Invite")
 
-It's important to accept each other vice versa. Your friend must add your 
-Retroshare ID to his Network/Friendlist. And you need to add the Retroshare ID from 
-your Friend to your Network/Friendlist.  
-![Connect Wizard](../img/first-steps/connect_wizard.png "Connect Wizard")  
+Click on the Add Friend Button.
+![Invite](../img/first-steps/addfriend.png "Add Friend")  
 
- - ![Copy to Clipborad](../img/first-steps/copyrslink.png "Copy to Clipboard") copy to clipboard  
- - ![Save to File](../img/first-steps/document_save.png "Save to File") save to file  
- - ![Send by Mail](../img/first-steps/mail_send.png "Send by Mail") send by mail  
-
-![Show Certificate](../img/first-steps/show_cert.png "Show Certificate")  
-
-Share your Retroshare ID with your friend and request the Retroshare ID from 
-your Friend.  
-
-Accept your Friend's certificate.  
-![Accept Certificate](../img/first-steps/accept_cert.png "Accept Certificate")  
-
+Paste Friend's RetoShare ID and click on NEXT.  
+![Accept Certificate](../img/first-steps/paste_retroshareid.png "Paste Retroshare ID")  
 
 Have a look at the details and finish.  
 ![Make Friend](../img/first-steps/make_friend.png "Make Friend")  
 
 Connection in Progress, your Node tries to connect to your Friend. 
 ![Connection in Progress](../img/first-steps/connection_progress.png "Connection in Progress")  
+You can close this via OK.
 
-Your connect attempt has been successful, the connection is established. 
-![Connection in Established](../img/first-steps/connection_established.png "Connection in Established")  
+After you added your Friend its shows in Friendslist your Friend as Profile ID XXXX
+![Friendslist](../img/first-steps/friend_notconnected.png "Friendslist")  
+
+Your Friend or you get a Friend Request notify, you need accept it with click on Accept Friend Request Button.
+![Friendrequest](../img/first-steps/friendrequest_notify.png "Friendrequest")  
+
+Click on Accept and finish it.
+
+![AcceptFriendrequest](../img/first-steps/accept_friendrequest.png "AcceptFriendrequest")  
+
+After accepted it can take up 10-15 minutes to get connected. Your friends Username will be shown.
+![Friendconnected](../img/first-steps/friend_connected.png "Fiendconnected")  
+
+It's important to accept each other vice versa. Your friend must add your 
+Retroshare ID to his Network/Friendlist.
+And you need to add the Retroshare ID from your Friend to your Network/Friendlist
+
+It's important that on both side DHT is working, first time it will take to get connected with DHT.
+When DHT still not works, you need to try use old certificate Format.
+ 
 
 
 ##First Chat
