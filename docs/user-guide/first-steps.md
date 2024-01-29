@@ -109,13 +109,14 @@ And change your avatar picture.
 ##First Friend
 ![Invite](../img/first-steps/invite.png "Invite")  
 
-Click on the ![Invite](../img/first-steps/invite_40.png "Invite")   Invite Button. 
+Click on the ![Invite](../img/first-steps/invite_40.png "Invite")   Add Friend Button. 
 
-The fastest way is to exchange the certificates directly with your friends. 
-You can also export them to a file and hand them out manually or send it by mail. 
+The fastest way is to exchange the Retroshare ID directly with your friends. 
+Copy your Retroshare ID to clipboard and send it by mail
+![Invite](../img/first-steps/copy_retroshareid.png "Invite")
 
 It's important to accept each other vice versa. Your friend must add your 
-certificate to his Network/Friendlist. And you need to add the certificate from 
+Retroshare ID to his Network/Friendlist. And you need to add the Retroshare ID from 
 your Friend to your Network/Friendlist.  
 ![Connect Wizard](../img/first-steps/connect_wizard.png "Connect Wizard")  
 
@@ -125,7 +126,7 @@ your Friend to your Network/Friendlist.
 
 ![Show Certificate](../img/first-steps/show_cert.png "Show Certificate")  
 
-Share your certificate with your friend and request the certificate from 
+Share your Retroshare ID with your friend and request the Retroshare ID from 
 your Friend.  
 
 Accept your Friend's certificate.  
