@@ -1,5 +1,5 @@
 # Setup RetroShare Mobile: Flutter & Android Studio Build Environment
-## Windows Install (https://flutter.dev/docs/get-started/install/windows)
+## Windows Install <https://flutter.dev/docs/get-started/install/windows>
 
 # Install Directories 
 
@@ -24,8 +24,8 @@ https://github.com/RetroShare/retroshare-mobile.git
    - Add in Environment Variables of your account, Git to PATH: ``C:\Program Files\Git\cmd``
 
 # Install Flutter 
-1. System requirements: https://flutter.dev/docs/get-started/install/windows#system-requirements
-2. Download Flutter stable: https://flutter.dev/docs/get-started/install/windows#get-the-flutter-sdk
+1. System requirements: <https://flutter.dev/docs/get-started/install/windows#system-requirements>
+2. Download Flutter stable: <https://flutter.dev/docs/get-started/install/windows#get-the-flutter-sdk>
 3. Extract the Zip (example C:\Users\<your-user-name>\Documents\flutter_windows_stable_x.x.x-stable.)
 4. Add in environment variables for your account to the PATH-variable of USER context separated by ';' the explicit full path to flutter\bin: 
 ```
