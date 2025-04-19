@@ -4,9 +4,9 @@
 ## RetroShare mobile for Android
 Retroshare mobile client written in Flutter
 
-Github Repository: https://github.com/RetroShare/retroshare-mobile
+Github Repository: <https://github.com/RetroShare/retroshare-mobile>
 
-RetroShare Android APKs: (https://github.com/RetroShare/retroshare-mobile/tree/master/android/app/retroshare-service-apks)
+RetroShare Android APKs: <https://github.com/RetroShare/retroshare-mobile/tree/master/android/app/retroshare-service-apks>
 
 GitLab Repository(by b1rdG): <https://gitlab.com/b1rdG/retroshare-android-flutter-app>
 
