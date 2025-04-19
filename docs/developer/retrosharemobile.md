@@ -41,7 +41,7 @@ https://github.com/RetroShare/retroshare-mobile.git
    - It may also query for chrome but this is not needed
 
 # Install Android Studio
-1. Install Android Studio for windows: https://developer.android.com/studio
+1. Install Android Studio for windows: <https://developer.android.com/studio>
    - follow the default settings and ensure the installation is done to AndroidStudioDir
 2. After installation start Android Studio and let it update if it queries for some
 3. Press NEXT-buttons until it is no longer shown
