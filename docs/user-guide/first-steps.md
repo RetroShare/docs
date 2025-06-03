@@ -3,10 +3,10 @@
 This aims to be a Step by Step Guide for New Users. 
 
 ##Download  
-Download RetroShare from [here](../user-guide/installation/).
+Download RetroShare from [here](../installation/).
 
 ##Install
-Install RetroShare on your Computer
+Install RetroShare on your Computer.
 
 ##Create new Profile
 Start RetroShare to create your Node. 
@@ -17,7 +17,7 @@ Start RetroShare to create your Node.
 Enter the values:  
 
  - Name  
-   Name of your Account ([GPG-ID](../user-guide/settings/#public-information)) 
+   Name of your Account ([GPG-ID](../settings/#public-information)) 
    Visible to your friends, and friends of friends. 
  - Password  
    This password protects your private PGP key. 
@@ -25,12 +25,13 @@ Enter the values:
    encrypts your entire RetroShare directory.  
   
 Optional: (advanced options)  
- - Node Name ([Location](../user-guide/settings/#public-information))
+
+ - Node Name ([Location](../settings/#public-information))  
    Each user can have several Locations were RetroShare is running on 
-   different devices with the same [GPG-ID](../user-guide/settings/#public-information). 
+   different devices with the same [GPG-ID](../settings/#public-information). 
 
  - Chat name  
-   Name of your first Identity ([GXS-ID](../user-guide/interface/#pseudonymous-identities)) 
+   Name of your first Identity ([GXS-ID](../interface/#pseudonymous-identities)). 
    Used when you write in chat lobbies, forums and channel comments. Can be setup later if you need one. 
 
 Move your mouse to create randomness for the Key creation. 
@@ -64,12 +65,12 @@ Network Settings
    If your Router is enabling [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play), 
    keep UPnP. UPnP enables RetroShare to open itself a port on your Router. 
    Otherwise change it to *Manually Forwarded Port* and set a manual Port Forward to your 
-   [NAT](../user-guide/settings/#nat) Firewall. For manual Port forward, 
+   [NAT](../settings/#nat) Firewall. For manual Port forward, 
    you can choose your RetroShare port also.  
  - Set your download and upload speeds to fit your Internet Connection. 
    Keeping this setting below of your total speed is recommended.  
-   
-For detailed Network Settings explanations click [here](../user-guide/settings/#network)
+
+For detailed Network Settings explanations click [here](../settings/#network)
 
 ###Avatar
 
@@ -88,9 +89,9 @@ You may want to change the Avatar of your Location and set a Status message.
 ###Identity
 ![People](../img/first-steps/people.png "People")  
 
-RetroShare has already created a first [signed Identity](../user-guide/interface/#pseudonymous-identities) 
-for your use in [Chatrooms](../user-guide/interface/#chat-lobbies) 
-and [Forums](../user-guide/interface/#forums) and Distant Chats and Mails. 
+RetroShare has already created a first [signed Identity](../interface/#pseudonymous-identities) 
+for your use in [Chatrooms](../interface/#chat-lobbies) 
+and [Forums](../interface/#forums) and Distant Chats and Mails. 
 
 You may want to create as many additional Identities as well if needed. 
 
@@ -159,15 +160,15 @@ Double Clicking will start an instant Chat with your Friends.
 ![Instant Chat](../img/first-steps/instant.png "Instant Chat")  
 
 ##First Chatroom
-Subscribed [Chatrooms](../user-guide/interface/#chat-lobbies) 
+Subscribed [Chatrooms](../interface/#chat-lobbies) 
 from your online friends are shared to you, 
 and you are free to subscribe and re-share them as well to your friends.  
 ![Chatroom](../img/first-steps/chatroom.png "Chatroom")  
 
-In the same manner ![Forums](../img/first-steps/forums.png "Forums") [Forums](../user-guide/interface/#forums), 
-![Channels](../img/first-steps/channels.png "Channels") [Channels](../user-guide/interface/#channels), 
-![Posted](../img/first-steps/posted.png "Posted") [Posted](../user-guide/interface/#posted) and 
-![File Sharing](../img/first-steps/filesharing.png "File Sharing") [File Sharing](../user-guide/interface/#file-sharing) 
+In the same manner ![Forums](../img/first-steps/forums.png "Forums") [Forums](../interface/#forums), 
+![Channels](../img/first-steps/channels.png "Channels") [Channels](../interface/#channels), 
+![Posted](../img/first-steps/posted.png "Posted") [Posted](../interface/#posted) and 
+![File Sharing](../img/first-steps/filesharing.png "File Sharing") [File Sharing](../interface/#file-sharing) 
 will become more and more available per direct 
 [Friend-2-Friend](../concept/Friend-2-Friend/#retroshare) 
 connections as 

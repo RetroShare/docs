@@ -268,7 +268,7 @@ Install HomeBrew following this guide: [HomeBrew](http://brew.sh/)
 
 Install XCode command line developer tools:
 
-       $xcode-select --install
+       $ xcode-select --install
 
 Start XCode to get it updated and to able C compiler to create executables.
 
