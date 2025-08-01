@@ -52,8 +52,8 @@ Additional dependencies for plugins:
 
 ###Checkout the submodules
 ```bash
-   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp supportlibs/rapidjson
-   git submodule update --init supportlibs/restbed
+   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp \ 
+   supportlibs/rapidjson supportlibs/restbed
 ```
 
 ###Compile
@@ -124,7 +124,7 @@ Install Qt via: [Qt Download](http://www.qt.io/download/)
 Use default options.  
 Add to the PATH environment variable
 
-       ;C:\Qt\5.5\mingw492_32\bin;C:\Qt\Tools\mingw492_32\bin;C:\Qt\Tools\mingw492_32\opt\bin  
+       ;C:\Qt\5.15\mingw492_32\bin;C:\Qt\Tools\mingw492_32\bin;C:\Qt\Tools\mingw492_32\opt\bin  
 
 Depends on which version of Qt you use.   
 
