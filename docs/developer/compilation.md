@@ -64,7 +64,7 @@ Additional dependencies for plugins:
 ###Compile
 ```bash
    cd trunk
-   qmake CONFIG+=release CONFIG+=rs_jsonapi CONFIG+=rs_webui CONFIG+=rs_autologin
+   qmake CONFIG+=release CONFIG+=rs_jsonapi CONFIG+=rs_webui
    make
 ```
 
