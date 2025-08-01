@@ -7,15 +7,20 @@
 ###Install package dependencies:
 #### Debian/Ubuntu
 ```bash
-   sudo apt-get install g++ cmake qt5-default qtmultimedia5-dev \
-       libqt5x11extras5-dev libbz2-dev libssl-dev libsqlcipher-dev \
-       libupnp-dev libxss-dev rapidjson-dev
+   sudo apt-get install g++ cmake qt5-qmake qtmultimedia5-dev \
+   libqt5x11extras5-dev libbz2-dev libjson-c-dev libssl-dev libsqlcipher-dev \
+   libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev
 ```
 
-Additional dependencies for plugins:
+Additional dependencies for Feedreader plugin:
+```bash
+   sudo apt-get install libxml2-dev libxslt1-dev
+```
+
+Additional dependencies for Voip plugin:
 ```bash
    sudo apt-get install libavcodec-dev libcurl4-openssl-dev \
-   libqt5multimedia5-plugins libspeexdsp-dev libxml2-dev libxslt1-dev
+   libqt5multimedia5-plugins libspeexdsp-dev
 ```
 
 
@@ -57,21 +62,10 @@ Additional dependencies for plugins:
    sudo make install
 ```
 
-The executables produced will be:  
+The executable produced will be:  
  
  - /usr/bin/RetroShare06  
- - /usr/bin/RetroShare06-nogui  
  
-###Compile retroshare-nogui only 
-
-If you want to run RetroShare on a server and don’t need the gui and plugins,
-you can run the following commands to only compile/install the nogui version:
-
-```bash
-	qmake
-	make retroshare-nogui
-	sudo make retroshare-nogui-install_subtargets
-```
 
 ###For packagers
 
@@ -126,8 +120,7 @@ Add to the PATH environment variable
 
        ;C:\Qt\5.5\mingw492_32\bin;C:\Qt\Tools\mingw492_32\bin;C:\Qt\Tools\mingw492_32\opt\bin  
 
-Depends on which version of Qt you use.  
-Change build-all-mingw32make.bat with these values too if you don't use MSys2.  
+Depends on which version of Qt you use.   
 
 ###MSYS2 Installation
 
@@ -136,7 +129,7 @@ Choose your MSYS2 installer here: [MSYS2](http://msys2.github.io/)
 Follow the install procedure.  
 Don't forget to sync & Update pacman.  
 
-       pacman --needed -Sy bash pacman pacman-mirrors msys2-runtime  
+       pacman -Syu  
 
 Restart console  
 
@@ -144,25 +137,28 @@ Restart console
 
 Install all default programs  
 
-       pacman -S base-devel git mercurial cvs wget p7zip gcc perl ruby python2  
+       pacman -S base-devel git wget p7zip gcc perl ruby doxygen cmake  
 
-Choose only w64-i686 if you want only compilation in 32b architecture.  
+Choose only w64-x86_64 if you want only compilation in 64Bit architecture.  
 
-       pacman -S mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain  
+       pacman -S mingw-w64-x86_64-toolchain  
 
 ###Install other binutils:   
-       pacman -S mingw-w64-i686-miniupnpc mingw-w64-x86_64-miniupnpc  
-       pacman -S mingw-w64-i686-sqlite3 mingw-w64-x86_64-sqlite3  
-       pacman -S mingw-w64-i686-speex mingw-w64-x86_64-speex  
-       pacman -S mingw-w64-i686-opencv mingw-w64-x86_64-opencv  
-       pacman -S mingw-w64-i686-ffmpeg mingw-w64-x86_64-ffmpeg  
-       pacman -S mingw-w64-i686-libmicrohttpd mingw-w64-x86_64-libmicrohttpd  
-       pacman -S mingw-w64-i686-libxslt mingw-w64-x86_64-libxslt  
+       pacman -S mingw-w64-x86_64-miniupnpc
+       pacman -S mingw-w64-x86_64-libxslt
+       pacman -S mingw-w64-x86_64-xapian-core
+       pacman -S mingw-w64-x86_64-sqlcipher
+       pacman -S mingw-w64-x86_64-qt5-base
+       pacman -S mingw-w64-x86_64-qt5-multimedia
+       pacman -S mingw-w64-x86_64-ccmake
+       pacman -S mingw-w64-x86_64-rapidjson
+       pacman -S mingw-w64-x86_64-json-c
+       pacman -S mingw-w64-x86_64-libbotan
+       pacman -S mingw-w64-x86_64-asio
 
 Add MSYS2 to PATH environment variable depends your windows  
 
-       ;C:\msys64\mingw32\bin
-       ;C:\msys32\mingw32\bin
+       ;C:\msys64\mingw64\bin
 
 
 ###Git Installation
@@ -180,30 +176,17 @@ Paste this text on git console:
       git clone https://github.com/RetroShare/RetroShare.git  
 
 
-###Last Settings
+### Compile Retroshare
 
+Open an MSys2 64 shell  
 
-In QtCreator Option Git add its path: *C:\Program Files\Git\bin* 
-and select "Pull" with "Rebase"  
+       cd /c/Development/GIT/RetroShare/RetroShare  
+       qmake
+       mingw32-make
 
-
-Open an MSys2 32|64 shell  
-Move to build_scripts:  
-
-       cd /c/Development/GIT/RetroShare/msys2_build_libs/  
-
-###Compile missing library
-       make
-
-You can now compile RS into Qt Creator  
-
-For using, and debugging Plugins, you can use [Symlinker](http://amd989.github.io/Symlinker/) to link 
-the files in  
-
-       \build-RetroShare-Desktop_Qt_X_Y_Z_MinGW_32bit-Debug\plugins\PluginName\debug\*.dll  
-to  
-*%appdata%\RetroShare\extensions6*
-
+The executable produced will be:  
+ 
+       /retroshare-gui/src/release/  
 
 ##Compilation on MacOS
 
