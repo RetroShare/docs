@@ -39,8 +39,8 @@ Additional dependencies for plugins:
 
 #### Arch Linux
 ```bash
-   pacman -S base-devel libgnome-keyring libmicrohttpd libupnp libxslt \
-       libxss opencv qt4 speex sqlcipher
+   pacman -S base-devel libgnome-keyring cmake qt5-tools qt5-multimedia qt5-x11extras \
+   rapidjson libupnp libxslt libxss sqlcipher botan2 bzip2 json-c
 ```
 
 ###Checkout the source code
