@@ -12,6 +12,11 @@
    libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev
 ```
 
+Additional packages for Qt6 compile
+```bash
+   sudo apt-get install qt6-base-dev qt6-multimedia-dev qt6-x11extras-dev
+```
+
 Additional dependencies for Feedreader plugin:
 ```bash
    sudo apt-get install libxml2-dev libxslt1-dev
@@ -39,8 +44,8 @@ Additional dependencies for plugins:
 
 #### Arch Linux
 ```bash
-   pacman -S base-devel libgnome-keyring libmicrohttpd libupnp libxslt \
-       libxss opencv qt4 speex sqlcipher
+   pacman -S base-devel libgnome-keyring cmake qt5-tools qt5-multimedia qt5-x11extras \
+   rapidjson libupnp libxslt libxss sqlcipher botan2 bzip2 json-c
 ```
 
 ###Checkout the source code
