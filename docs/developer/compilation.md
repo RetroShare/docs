@@ -50,10 +50,16 @@ Additional dependencies for plugins:
    git clone https://github.com/RetroShare/RetroShare.git trunk
 ```
 
+###Checkout the submodules
+```bash
+   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp supportlibs/rapidjson
+   git submodule update --init supportlibs/restbed
+```
+
 ###Compile
 ```bash
    cd trunk
-   qmake CONFIG+=debug
+   qmake CONFIG+=release CONFIG+=rs_jsonapi CONFIG+=rs_webui CONFIG+=rs_autologin
    make
 ```
 
