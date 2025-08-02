@@ -9,7 +9,7 @@
 ```bash
    sudo apt-get install g++ cmake qt5-qmake qtmultimedia5-dev \
    libqt5x11extras5-dev libbz2-dev libjson-c-dev libssl-dev libsqlcipher-dev \
-   libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev
+   libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev libasio-dev
 ```
 
 Additional packages for Qt6 compile
@@ -57,8 +57,8 @@ Additional dependencies for plugins:
 
 ###Checkout the submodules
 ```bash
-   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp \ 
-   supportlibs/rapidjson supportlibs/restbed
+   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp
+   git submodule update --init --remote supportlibs/rapidjson supportlibs/restbed
 ```
 
 ###Compile
