@@ -14,7 +14,8 @@
 
 Additional packages for Qt6 compile
 ```bash
-   sudo apt-get install qt6-base-dev qt6-multimedia-dev qt6-x11extras-dev
+   sudo apt-get install qt6-base-dev qt6-multimedia-dev qt6-x11extras-dev \
+   qt6-5compat-dev
 ```
 
 Additional dependencies for Feedreader plugin:
