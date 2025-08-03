@@ -23,18 +23,23 @@ Additional dependencies for Feedreader plugin:
 ```bash
    sudo apt install libxml2-dev libxslt1-dev libcurl4-openssl-dev
 ```
+It is required to append the config option `CONFIG+=retroshare_plugins`.
+Make sure `plugins/plugins.pro` contains `FeedReader` in the list of plugins to compile. 
+Do not mix plugins compiled with Qt5 with those compiled with Qt6. They work only if they are compiled
+with the same Qt version as RetroShare.
 
 Additional dependencies for Voip plugin:
 ```bash
    sudo apt install libavcodec-dev libcurl4-openssl-dev \
    libqt5multimedia5-plugins libspeexdsp-dev
 ```
+Voip is outdated and is not compileable on the latest Debian.
 
 Autologin:
 ```bash
    sudo apt install libsecret-1-dev
 ```
-It is required to append the config option `CONFIG+=rs_autologin`
+It is required to append the config option `CONFIG+=rs_autologin`.
 
 #### openSUSE
 ```bash
