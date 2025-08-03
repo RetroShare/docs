@@ -7,24 +7,24 @@
 ###Install package dependencies:
 #### Debian/Ubuntu
 ```bash
-   sudo apt-get install g++ cmake qt5-qmake qtmultimedia5-dev \
+   sudo apt install g++ cmake qt5-qmake qtmultimedia5-dev \
    libqt5x11extras5-dev libbz2-dev libjson-c-dev libssl-dev libsqlcipher-dev \
    libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev libasio-dev
 ```
 
 Additional packages for Qt6 compile
 ```bash
-   sudo apt-get install qt6-base-dev qt6-multimedia-dev qt6-5compat-dev
+   sudo apt install qt6-base-dev qt6-multimedia-dev qt6-5compat-dev
 ```
 
 Additional dependencies for Feedreader plugin:
 ```bash
-   sudo apt-get install libxml2-dev libxslt1-dev
+   sudo apt install libxml2-dev libxslt1-dev
 ```
 
 Additional dependencies for Voip plugin:
 ```bash
-   sudo apt-get install libavcodec-dev libcurl4-openssl-dev \
+   sudo apt install libavcodec-dev libcurl4-openssl-dev \
    libqt5multimedia5-plugins libspeexdsp-dev
 ```
 
