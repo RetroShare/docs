@@ -19,7 +19,7 @@ Additional packages for Qt6 compile
 
 Additional dependencies for Feedreader plugin:
 ```bash
-   sudo apt install libxml2-dev libxslt1-dev
+   sudo apt install libxml2-dev libxslt1-dev libcurl4-openssl-dev
 ```
 
 Additional dependencies for Voip plugin:
