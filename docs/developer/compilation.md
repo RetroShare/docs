@@ -12,10 +12,12 @@
    libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev libasio-dev
 ```
 
-Additional packages for Qt6 compile
+Additional packages to compile with Qt6:
 ```bash
    sudo apt install qt6-base-dev qt6-multimedia-dev qt6-5compat-dev
 ```
+
+To use only Qt6 the packages `qt5-qmake qtmultimedia5-dev libqt5x11extras5-dev` are not needed.
 
 Additional dependencies for Feedreader plugin:
 ```bash
