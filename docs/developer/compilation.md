@@ -30,6 +30,11 @@ Additional dependencies for Voip plugin:
    libqt5multimedia5-plugins libspeexdsp-dev
 ```
 
+Autologin:
+```bash
+   sudo apt install libsecret-1-dev
+```
+It is required to append the config option `CONFIG+=rs_autologin`
 
 #### openSUSE
 ```bash
