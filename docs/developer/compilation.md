@@ -7,27 +7,39 @@
 ###Install package dependencies:
 #### Debian/Ubuntu
 ```bash
-   sudo apt-get install g++ cmake qt5-qmake qtmultimedia5-dev \
+   sudo apt install g++ cmake qt5-qmake qtmultimedia5-dev \
    libqt5x11extras5-dev libbz2-dev libjson-c-dev libssl-dev libsqlcipher-dev \
    libupnp-dev libxss-dev rapidjson-dev libbotan-2-dev libasio-dev
 ```
 
-Additional packages for Qt6 compile
+Additional packages to compile with Qt6:
 ```bash
-   sudo apt-get install qt6-base-dev qt6-multimedia-dev qt6-5compat-dev
+   sudo apt install qt6-base-dev qt6-multimedia-dev qt6-5compat-dev
 ```
+
+To use only Qt6 the packages `qt5-qmake qtmultimedia5-dev libqt5x11extras5-dev` are not needed.
 
 Additional dependencies for Feedreader plugin:
 ```bash
-   sudo apt-get install libxml2-dev libxslt1-dev
+   sudo apt install libxml2-dev libxslt1-dev libcurl4-openssl-dev
 ```
+It is required to append the config option `CONFIG+=retroshare_plugins`.
+Make sure `plugins/plugins.pro` contains `FeedReader` in the list of plugins to compile. 
+Do not mix plugins compiled with Qt5 with those compiled with Qt6. They work only if they are compiled
+with the same Qt version as RetroShare.
 
 Additional dependencies for Voip plugin:
 ```bash
-   sudo apt-get install libavcodec-dev libcurl4-openssl-dev \
+   sudo apt install libavcodec-dev libcurl4-openssl-dev \
    libqt5multimedia5-plugins libspeexdsp-dev
 ```
+Voip is outdated and is not compileable on the latest Debian.
 
+Autologin:
+```bash
+   sudo apt install libsecret-1-dev
+```
+It is required to append the config option `CONFIG+=rs_autologin`.
 
 #### openSUSE
 ```bash
