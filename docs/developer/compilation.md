@@ -50,20 +50,19 @@ Additional dependencies for plugins:
 
 ###Checkout the source code
 ```bash
-   mkdir ~/retroshare
-   cd ~/retroshare 
-   git clone https://github.com/RetroShare/RetroShare.git trunk
+   cd ~ 
+   git clone https://github.com/RetroShare/RetroShare.git retroshare
 ```
 
 ###Checkout the submodules
 ```bash
+   cd retroshare
    git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp
    git submodule update --init --remote supportlibs/rapidjson supportlibs/restbed
 ```
 
 ###Compile
 ```bash
-   cd trunk
    qmake CONFIG+=release CONFIG+=rs_jsonapi CONFIG+=rs_webui CONFIG+=rs_autologin
    make
 ```
@@ -74,9 +73,9 @@ Additional dependencies for plugins:
 ```
 
 The executable produced will be:  
- 
- - /usr/bin/RetroShare06  
- 
+```bash
+  ~/usr/bin/RetroShare  
+```
 
 ###For packagers
 
@@ -93,9 +92,9 @@ If libsqlcipher is not available as a package
 
 You need to place sqlcipher so that the hierarchy is:
 
-      retroshare
+         Home
           |
-          +--- trunk
+          +--- retroshare
           |
           +--- lib
                 |
@@ -103,7 +102,7 @@ You need to place sqlcipher so that the hierarchy is:
 ```bash
 	mkdir lib
 	cd lib
-	git clone git://github.com/sqlcipher/sqlcipher.git
+	git clone https://github.com/sqlcipher/sqlcipher.git --depth=1 --branch v3.4.1
 	cd sqlcipher
 	./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="-lcrypto"
 	make
