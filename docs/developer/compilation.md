@@ -62,12 +62,17 @@ Additional dependencies for plugins:
 
 #### RedHat/Fedora
 ```bash
-    sudo dnf install mesa-libGL-devel gcc cmake qt5-qtbase-devel qt5-qtmultimedia \
-    qt5-qtx11extras rapidjson-devel libupnp openssl sqlcipher sqlcipher-devel \
+    sudo dnf install mesa-libGL-devel gcc cmake \
+    rapidjson-devel libupnp openssl sqlcipher sqlcipher-devel \
     botan2 botan2-devel json-c-devel bzip2-devel asio-devel libsecret libXScrnSaver-devel
 ```
 
-Additional packages to compile with Qt6:
+To compile with Qt5:
+```bash
+   sudo dnf install qt5-qtbase-devel qt5-qtmultimedia qt5-qtx11extras
+```
+
+To compile with Qt6:
 ```bash
    sudo dnf install qt6-qtbase-devel qt6-qtmultimedia-devel qt6-qt5compat-devel
 ```
@@ -86,8 +91,8 @@ Additional dependencies for Feedreader plugin:
 ###Checkout the submodules
 ```bash
    cd retroshare
-   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/ supportlibs/librnp
-   git submodule update --init --remote supportlibs/rapidjson supportlibs/restbed
+   git submodule update --init --remote libbitdht/ libretroshare/ retroshare-webui/
+   git submodule update --init --remote supportlibs/librnp supportlibs/rapidjson supportlibs/restbed
 ```
 
 ###Compile
