@@ -13,7 +13,7 @@
 
 To compile with Qt5:
 ```bash
-   sudo apt install qt5-qmake qtmultimedia5-dev qt6-5compat-dev libqt5x11extras5-dev
+   sudo apt install qt5-qmake qtmultimedia5-dev libqt5x11extras5-dev
 ```
 
 To compile with Qt6:
