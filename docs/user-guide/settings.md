@@ -406,7 +406,7 @@ Clicking on the systray notification shows more details about the notification.
 ###General
 ###Distant Chat
 ###Chat Settings
- - Enable Emoticons Privat Chat
+ - Enable Emoticons Private Chat
  - Enable Emoticons Group Chat
  - Enable custom fonts
   
