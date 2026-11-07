@@ -26,6 +26,13 @@ To compile and use (for GNU/Linux):
 Restart RetroShare, enabling the plugin when asked. You can change settings in Options->FeedReader.
 
 
+## RetroChess
+
+RetroChess lets you play a game of chess against a friend.
+
+Source: <https://github.com/RetroShare/RetroChess>
+
+
 # Additional Plugins
 
 ## FileInfoTaskbar
@@ -33,27 +40,32 @@ RetroShare plugin for displaying file download status on the Windows Taskbar
 
 Works with 0.6.6 and Qt5, from <https://github.com/hunbernd/FileInfoTaskbar>
 
-## RetroChess
-Play one game of chess against another player.
+## RetroGit
+RetroGit is a decentralized Git collaboration plugin for RetroShare.
 
-Works with 0.6.6 and Qt5, from <https://github.com/RetroShare/RetroChess>
+From <https://github.com/defnax/retroGit>
 
-## FriendMap
-Displays a globe, with location of friends on it.
+## FriendsMap
+FriendMap for RetroShare using a local GeoIP database. Displays a globe with the location of your friends on it.
 
-Works with 0.6.0 and Qt5, from <https://github.com/RetroShare/FriendsMap>
+From <https://github.com/RetroShare/FriendsMap>
 
-## PaintChat
-Draw a quick sketch to explain things.
+## QtPaint
+Paint plugin for RetroShare chat rooms.
 
-Works with 0.6.0 and Qt5, from <https://github.com/hunbernd/Retroshare-Paintchat-Plugin>
+From <https://github.com/RetroShare/QtPaint>
 
 ## Lua4RS
-Allows Lua scripts to run under RetroShare for various administrative tasks.
+Run Lua scripts inside RetroShare to do different tasks.
 
-Works with 0.6.0 and Qt5, from <https://github.com/sehraf/Lua4RS>.
+From <https://github.com/defnax/Lua4RS>
 
-## SyncFriends
-This plugin allows you to synchronize your friend list with whoever you want to. 
+## Discord Bridge
+Bridges RetroShare and Discord.
 
-Works with 0.6.0 and Qt5, from <https://github.com/sehraf/SyncFriends>
+From <https://github.com/defnax/discord>
+
+## RetroAI
+A RetroShare plugin that answers chat messages using a language model running on your own computer (Ollama).
+
+From <https://github.com/defnax/RetroAI>
