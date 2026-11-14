@@ -27,6 +27,26 @@ Repository: <https://github.com/RetroShare/retroshare-web>
 4. In Android Studio, choose **Open**, select the `retroshare-web` folder and wait for the Gradle sync to finish.
 5. Click **Run 'app'** (`Shift + F10`) to build and install it on your device or emulator.
 
+## Build the APK file
+
+**In Android Studio:** choose **Build > Build Bundle(s) / APK(s) > Build APK(s)**. When the build finishes, click **locate** in the notification to open the folder that contains the APK.
+
+**From the command line**, in the `retroshare-web` folder (run step 2 above first):
+
+On Windows:
+
+    gradlew.bat assembleDebug
+
+On Linux or macOS:
+
+    ./gradlew assembleDebug
+
+The APK is written to `app/build/outputs/apk/debug/app-debug.apk`. To install it on a phone connected over USB:
+
+    adb install app/build/outputs/apk/debug/app-debug.apk
+
+For a release build, use `assembleRelease`. The APK is then written to `app/build/outputs/apk/release/`. It has to be signed before Android will install it. You can sign it in Android Studio with **Build > Generate Signed Bundle / APK**.
+
 ## How it works
 
 - When the app starts it requests notification permission and starts the RetroShare service.
