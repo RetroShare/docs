@@ -428,3 +428,7 @@ You can find the compiled application at *./retroshare/retroshare-gui/src/retros
     ./plugins/VOIP/lib/libVOIP.dylib \
     ./plugins/RetroChess/lib/libRetroChess.dylib \
     ./retroshare-gui/src/RetroShare.app/Contents/Resources/
+
+##Mobile and Web clients
+
+RetroShare Mobile (Flutter, for Android, iOS and Windows) and RetroShare Web (an Android app built around the web interface) are separate projects. See [RetroShare Mobile](retrosharemobile.md) and [RetroShare Web](retroshareweb.md) for how to build them.

@@ -25,8 +25,8 @@ nav:
 - Developer Section:
     - Compilation: developer/compilation.md
     - Coding: developer/coding.md
-    - Android: developer/android.md
     - RetroShare Mobile: developer/retrosharemobile.md
+    - RetroShare Web: developer/retroshareweb.md
 - Concept:
     - Topology: concept/topology.md 
 - About: 
