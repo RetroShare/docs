@@ -35,11 +35,6 @@ Source: <https://github.com/RetroShare/RetroChess>
 
 # Additional Plugins
 
-## FileInfoTaskbar
-RetroShare plugin for displaying file download status on the Windows Taskbar
-
-Works with 0.6.6 and Qt5, from <https://github.com/hunbernd/FileInfoTaskbar>
-
 ## RetroGit
 RetroGit is a decentralized Git collaboration plugin for RetroShare.
 
@@ -69,3 +64,8 @@ From <https://github.com/defnax/discord>
 A RetroShare plugin that answers chat messages using a language model running on your own computer (Ollama).
 
 From <https://github.com/defnax/RetroAI>
+
+## FileInfoTaskbar
+RetroShare plugin for displaying file download status on the Windows Taskbar
+
+Works with 0.6.6 and Qt5, from <https://github.com/hunbernd/FileInfoTaskbar>
