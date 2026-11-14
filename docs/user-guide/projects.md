@@ -1,16 +1,18 @@
 # RetroShare projects
 
 
-## RetroShare mobile for Android
-Retroshare mobile client written in Flutter
+## RetroShare mobile
+RetroShare mobile client written in Flutter, targeting Android, iOS and Windows.
 
-Github Repository: <https://github.com/RetroShare/retroshare-mobile>
+Github Repository: <https://github.com/RetroShare/retroshare-mobile-v2>
 
-RetroShare Android APKs: <https://github.com/RetroShare/retroshare-mobile/tree/master/android/app/retroshare-service-apks>
+Previous Github Repository: <https://github.com/RetroShare/retroshare-mobile>
 
-GitLab Repository(by b1rdG): <https://gitlab.com/b1rdG/retroshare-android-flutter-app>
 
-Retroshare Android APKs: <https://gitlab.com/b1rdG/retroshare-android-apks>
+## RetroShare Web
+Android app written in Kotlin that runs the RetroShare core and its web interface (RSNewWebUI) in a WebView. Requires Android 9 (API 28) or newer.
+
+Github Repository: <https://github.com/RetroShare/retroshare-web>
 
 
 ## Emoty
