@@ -144,8 +144,8 @@ On the same page, click **Export friends list** and save the `.xml` file.
 
 ![Export friends list](../img/tutorial/exportfriendslist.png "Export friends list")
 
-You can also do this from the **Network** tab: click the small button next
-to the search field above the friend list and choose **export friendlist**.
+You can also do this from the **Network** tab: right-click in the friend
+list and choose **export friendlist**.
 
 ![export friendlist](../img/tutorial/export.png "Export friendlist")
 
@@ -176,8 +176,8 @@ computer.
     click **Generate new node**.)
 
 5. Log in. The friend list is still empty.
-6. Go to the **Network** tab, click the small button next to the search
-   field and choose **import friendlist**. Select your `.xml` file.
+6. Go to the **Network** tab, right-click in the friend list and choose
+   **import friendlist**. Select your `.xml` file.
 
     ![import friendlist](../img/tutorial/import.png "Import friendlist")
 
