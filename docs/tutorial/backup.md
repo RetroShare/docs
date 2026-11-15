@@ -156,7 +156,7 @@ computer.
 
 1. Start the new RetroShare. The **Create new Retroshare node** window
    opens. (If a profile already exists, click
-   **Manage profiles and nodes...** in the login window to get there.)
+   **New Profile/Node...** in the login window to get there.)
 
     ![New Node](../img/tutorial/new_node.png "Login window")
 
