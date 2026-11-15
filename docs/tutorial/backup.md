@@ -154,22 +154,30 @@ computer.
 
 ###Import on a new installation
 
-1. Start the new RetroShare. If a profile already exists, click
-   **Manage profiles and nodes...** in the login window.
+1. Start the new RetroShare. The **Create new Retroshare node** window
+   opens. (If a profile already exists, click
+   **Manage profiles and nodes...** in the login window to get there.)
 
     ![New Node](../img/tutorial/new_node.png "Login window")
 
-2. In the **Create a new node** window click **Import new profile** and
-   select your `.asc` file. Enter the profile password when asked.
+2. Tick **advanced options**. The **Import profile** button and the
+   **Use existing profile...** checkbox appear next to the profile field.
+3. Click **Import profile** and select your `.asc` file. Your profile is
+   now chosen in the profile list and **Use existing profile...** is ticked.
 
-    ![Import new profile](../img/tutorial/shelter.png "Import new profile")
+    ![Import profile](../img/tutorial/importprofile.png "Import profile")
 
-3. Choose your imported profile under **Use profile**, give the node a
-   name (for example `laptop`), move the mouse until the bar is filled,
-   and click **Generate new node**.
-4. Log in. The friend list is still empty.
-5. Go to the **Network** tab, open the same menu as above and choose
-   **import friendlist**. Select your `.xml` file.
+4. Give the node a name (for example `My computer` or `laptop`) and
+   enter the **password of your profile**. Move the mouse until the
+   progress bar is full, then create the node.
+
+    (On older versions the window is called **Create a new node**: click
+    **Import new profile**, choose the profile under **Use profile** and
+    click **Generate new node**.)
+
+5. Log in. The friend list is still empty.
+6. Go to the **Network** tab, click the small button next to the search
+   field and choose **import friendlist**. Select your `.xml` file.
 
     ![import friendlist](../img/tutorial/import.png "Import friendlist")
 
