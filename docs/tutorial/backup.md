@@ -29,6 +29,11 @@ is depends on your operating system and on whether you use the
 | Linux | `~/.retroshare/` (hidden folder in your home directory) |
 | macOS | `~/.retroshare/` (hidden folder in your home directory) |
 
+**Tip:** RetroShare shows you where your node is stored. Open
+**Preferences** → **Node** and look at **Profile path** in the
+**Profile** section (see the screenshot in section 3). A path starting with
+`Data/` means you are using the portable version.
+
 **Installed or portable?** The portable version is the `.7z`/`.zip`
 package you unpack yourself. It has a small file called `portable` next
 to `RetroShare.exe`; as long as that file is there, RetroShare keeps all
@@ -122,26 +127,25 @@ forum/channel subscriptions and settings are **not** included.
 
 ###Export your profile (.asc file)
 
-Open **Settings** → **Node** and click the **Export** button
-(on older versions: **Node** → **Certificate** → **Create new node...**,
-then **Export selected profile**).
+Open **Preferences** → **Node**. In the **Profile** section click
+**Export profile**.
 
-![node settings](../img/tutorial/settings_n.png "Node Settings")
+![Export profile](../img/tutorial/exportprofile.png "Export profile")
 
-<!-- TODO screenshot: Settings -> Node page with the Export button of the current version
-![Export profile](../img/tutorial/backup/export_profile.png "Export profile") -->
+Save the file with the ending `.asc`. It contains your profile's
+private key, so keep it safe.
 
-Select the profile and save it as a file ending in `.asc`.
-
-![Export selected profile](../img/tutorial/shelter.png "Export selected profile")
-
-The `.asc` file contains your profile's private key. Keep it safe.
+(On older versions: **Node** → **Certificate** → **Create new node...**,
+then **Export selected profile**.)
 
 ###Export your friend list (.xml file)
 
-Go to the **Network** tab, click the small button next to the search
-field above the friend list (or right-click in the friend list) and
-choose **export friendlist**. Save the `.xml` file.
+On the same page, click **Export friends list** and save the `.xml` file.
+
+![Export friends list](../img/tutorial/exportfriendslist.png "Export friends list")
+
+You can also do this from the **Network** tab: click the small button next
+to the search field above the friend list and choose **export friendlist**.
 
 ![export friendlist](../img/tutorial/export.png "Export friendlist")
 
