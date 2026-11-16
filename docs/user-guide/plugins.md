@@ -40,6 +40,11 @@ RetroGit is a decentralized Git collaboration plugin for RetroShare.
 
 From <https://github.com/defnax/retroGit>
 
+## RsWiki
+
+RetroShare wiki plugin
+https://github.com/defnax/RsWiki
+
 ## FriendsMap
 FriendMap for RetroShare using a local GeoIP database. Displays a globe with the location of your friends on it.
 
