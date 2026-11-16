@@ -53,7 +53,9 @@ press `Cmd+Shift+.` in Finder to show hidden folders.
 ###What is inside
 
     RetroShare/                       (or Data/ for portable, .retroshare/ on Linux/macOS)
-    ├── pgp/                          your profile key (secret keyring) and your friends' public keys
+    ├── rnp/                          your profile key (secret keyring) and your friends' public keys
+    │                                 (newer versions built with RNP)
+    ├── pgp/                          the same for older versions (OpenPGP-SDK)
     ├── LOC06_xxxxxxxxxxxxxxxxxxxx/   one folder per node (location), named after its node ID
     │   ├── keys/                     the node's SSL certificate and private key
     │   ├── gxs/                      identities, forums, channels, boards
@@ -62,8 +64,10 @@ press `Cmd+Shift+.` in Finder to show hidden folders.
     │   └── Partials/                 unfinished downloads
     └── default_cert_06.txt           remembers which node is started by default
 
-The important parts are **`pgp`** and the **`LOC06_...`** folder(s). Without
-them your profile and node are lost.
+The important parts are the keyring folder (**`rnp`** on newer versions,
+**`pgp`** on older ones) and the **`LOC06_...`** folder(s). Without them
+your profile and node are lost. If you have both `rnp` and `pgp`, back up
+both.
 
 ---
 
@@ -79,7 +83,7 @@ This is the safest way to keep *everything*.
 
 That's all. If space is a problem you can leave out `Downloads`
 and `Partials` inside the `LOC06_...` folder (move your finished downloads
-somewhere else first), but keep `pgp`, the `LOC06_...` folder(s) and
+somewhere else first), but keep `rnp` and/or `pgp`, the `LOC06_...` folder(s) and
 `default_cert_06.txt`.
 
 Do this regularly, for example every few months, and before every
