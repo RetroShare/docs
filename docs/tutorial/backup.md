@@ -171,10 +171,6 @@ computer.
    enter the **password of your profile**. Move the mouse until the
    progress bar is full, then create the node.
 
-    (On older versions the window is called **Create a new node**: click
-    **Import new profile**, choose the profile under **Use profile** and
-    click **Generate new node**.)
-
 5. Log in. The friend list is still empty.
 6. Go to the **Network** tab, right-click in the friend list and choose
    **import friendlist**. Select your `.xml` file.
