@@ -27,56 +27,65 @@ Step by Step Guide.
 
  
 
-On your First Node, Go to Settings  
+###Step 1: Export your profile on the first node
 
-![settings button](../img/tutorial/settings_button.png "Settings Button")  
+On your first node open **Preferences** → **Node**. In the **Profile**
+section click **Export profile**.
 
-settings_button Submenu Mode -> Tab Certificate -> Create New Node  
-![node settings](../img/tutorial/settings_n.png "Node Settings")  
+![Export profile](../img/tutorial/exportprofile.png "Export profile")
 
+Save it with the file ending `.asc`.
 
+This file contains the private PGP key of your RetroShare profile. With it
+you can create new nodes for the same profile. Keep it safe and don't
+share it with anyone.
 
-Select the Identity to export in the Profile Manager  
-![Profile Manager](../img/tutorial/profile_manager.png "Profile Manager")  
+###Step 2: Export your friend list on the first node
 
-Export it and save it with *.asc file ending.
+On the same page click **Export friends list** and save the `.xml` file.
 
-This file contains the private GPG Key belonging to your RetroShare 
-UserID. We are now able to create new nodes belonging to the same 
-User with this file.  
+![Export friends list](../img/tutorial/exportfriendslist.png "Export friends list")
 
+(You can also do this in the **Network** tab: right-click in the friend
+list and choose **export friendlist**.)
 
-Switch to your Second System where you want to create your new Node.  
+Copy both files (`.asc` and `.xml`) to the second computer, for example
+with a USB stick.
 
-Copy the .asc file to your new system and start RetroShare.  
+###Step 3: Create the new node on the second computer
 
-![New Node](../img/tutorial/new_node.png "New Node")  
+Start RetroShare on the second computer. The **Create new Retroshare node**
+window opens. (If RetroShare already has a profile, click
+**Manage profiles and nodes...** in the login window to get there.)
 
+![Create new location](../img/tutorial/create_location_import.png "Create new location")
 
-Open “Manage profiles and nodes…”  
+1. Tick **advanced options**.
+2. Tick **Use existing profile...**.
+3. Click **Import profile** and select your `.asc` file.
 
-![shelter](../img/tutorial/shelter.png "Shelter")  
+RetroShare confirms that the profile was imported:
 
+![Profile imported](../img/tutorial/imported.png "Profile imported")
 
-and Generate new Node
+Click **OK**. Your profile is now selected. Then:
 
-Now you are done, your new node is basically working. Though the Contact List is empty.
+- enter a name for the new node (location), for example `Laptop`,
+- enter the **password of your profile** (the same password as on your
+  first node),
+- move the mouse until the progress bar is full,
+- create the node.
 
- 
+Now your new node works, but its friend list is still empty.
 
-Next Step is moving your Contacts from your first node to your second node.
+###Step 4: Import your friend list on the new node
 
-##Export your Contact List from your first Node into a .xml file.
+Log in, go to the **Network** tab, right-click in the friend list and
+choose **import friendlist**. Select the `.xml` file from your first node.
 
-![export](../img/tutorial/export.png "Export")  
+![import friendlist](../img/tutorial/import.png "Import friendlist")
 
-
-Copy the File to your new node and import it there.
-
-![export](../img/tutorial/import.png "Import")  
-
-
-![Done](../img/tutorial/done.png "Done")  
+![Done](../img/tutorial/done.png "Done")
 
 Your friends from your first location are now available on your second 
 location. Your first node and your second node are also friended.
