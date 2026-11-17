@@ -46,6 +46,11 @@ RetroShare wiki plugin
 
 From <https://github.com/defnax/RsWiki>
 
+## Backgammon
+
+Backgammon game plugin
+From <https://github.com/defnax/backgammon>
+
 ## FriendsMap
 FriendMap for RetroShare using a local GeoIP database. Displays a globe with the location of your friends on it.
 
