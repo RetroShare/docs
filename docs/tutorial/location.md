@@ -13,17 +13,17 @@ where your User account is already in the friended.
 
 Creating a new location with the same user is easy, if you know how.  
 
-##Let’s start with a small example between Bunny, Alice and the RedQueen.  
+##A small example with Alice, Bob and Clara
 
-Bunny owns his first location “hole” and is connected with 
-Alice/Wonderland and RedQueen/Hive. On Bunny’s new PC he creates a 
-new RetroShare node and imports his contacts from the first node. 
-Bunny's friends do not need to take care to add the new location, it 
-just gets listed at Bunny’s nodes in their contact list.  
+Alice has RetroShare on her PC and is friends with Bob and Clara. Now she
+buys a laptop and wants to use RetroShare there too. On the laptop she
+creates a new node for her existing profile and imports her friend list
+from the PC.
 
- 
-If you want to do it similar to bunny, Its now explained in a 
-Step by Step Guide.  
+Bob and Clara don't need to do anything. Alice's new node simply appears
+under Alice in their friend list.
+
+Here is how Alice does it, step by step.  
 
  
 
@@ -56,7 +56,7 @@ with a USB stick.
 
 Start RetroShare on the second computer. The **Create new Retroshare node**
 window opens. (If RetroShare already has a profile, click
-**Manage profiles and nodes...** in the login window to get there.)
+**New Profile / Node...** in the login window to get there.)
 
 ![Create new location](../img/tutorial/create_location_import.png "Create new location")
 
@@ -92,10 +92,5 @@ location. Your first node and your second node are also friended.
 
 ![finished](../img/tutorial/finished.png "finished")  
 
-Alice and RedQueen are now able to see the new location of Bunny.
-
-![friendview](../img/tutorial/friendview.png "friendview")  
-
-Thanks to sehraf for implementing the Export/Import Tool.
 
 <sub>from <a href="https://blog.cavebeat.org/2015/09/how-to-create-a-second-location-for-an-existing-user-account/">blog.cavebeat.org</a> <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></sub>
