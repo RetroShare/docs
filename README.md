@@ -2,7 +2,7 @@
 
 You can read the online documentation is available at https://retrosharedocs.readthedocs.io/en/latest/
 
-[![Documentation Status](https://readthedocs.org/projects/retroshare/badge/?version=latest)](http://retroshare.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/retroshare/badge/?version=latest)](http://retrosharedocs.readthedocs.io/en/latest/?badge=latest)
 
 ---
 
