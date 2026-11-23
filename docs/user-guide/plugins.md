@@ -49,6 +49,7 @@ From <https://github.com/defnax/RsWiki>
 ## Backgammon
 
 Backgammon game plugin
+
 From <https://github.com/defnax/backgammon>
 
 ## FriendsMap
@@ -64,7 +65,7 @@ From <https://github.com/RetroShare/QtPaint>
 ## Lua4RS
 Run Lua scripts inside RetroShare to do different tasks.
 
-From <https://github.com/defnax/Lua4RS>
+From <https://github.com/sehraf/Lua4RS>
 
 ## Discord Bridge
 Bridges RetroShare and Discord.
